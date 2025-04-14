@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Subscribe - India : That is Bharat</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .subscription-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .subscription-hero {
+            background: url('./image/subscription-bg.png') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: white;
+            text-align: center;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .subscription-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .subscription-hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+
+        .subscription-form {
+            background-color: #fff;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            padding: 35px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border: 1px solid #f0f0f0;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+            font-size: 15px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            background-color: #fafafa;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #ff6b6b;
+            background-color: #fff;
+            box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.1);
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 12px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #ff6b6b;
+        }
+
+        .checkbox-item label {
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .submit-btn {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);
+        }
+
+        .submit-btn:hover {
+            background-color: #ff5252;
+            transform: translateY(-2px);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .benefits-section {
+            margin-bottom: 40px;
+        }
+
+        .benefits-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            background-color: #fff;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+            border: 1px solid #f0f0f0;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefit-icon {
+            font-size: 28px;
+            color: #ff6b6b;
+            background-color: rgba(255, 107, 107, 0.1);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .benefit-content h4 {
+            margin: 0 0 8px 0;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .benefit-content p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .topic-card {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid #f0f0f0;
+        }
+
+        .topic-card h2,
+        .topic-card h3 {
+            margin-top: 0;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .topic-card p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .topic-card ul {
+            padding-left: 20px;
+        }
+
+        .topic-card ul li {
+            margin-bottom: 10px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Animation */
+        .animate {
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .subscription-hero {
+                height: 200px;
+            }
+
+            .subscription-form {
+                padding: 25px;
+            }
+
+            .checkbox-group {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .checkbox-group {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-list {
+                grid-template-columns: 1fr;
+            }
+
+            .subscription-form {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header with Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./image/logo.png" alt="Bharat Map">
+            </div>
+
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul id="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">ABOUT</button>
+                    <div class="dropdown-content">
+                        <a href="geo.html">Geography & People</a>
+                        <a href="economy.html">Economy</a>
+                        <a href="religion.html">Culture and Religion</a>
+                        <a href="gov_poli.html">Government and Politics</a>
+                        <a href="language.html">Language</a>
+                        <a href="education.html">Education</a>
+                        <a href="science.html">Science and Technology</a>
+                        <a href="environment.html">Wildlife and Environment</a>
+                        <a href="Cuisine.html">Cuisine</a>
+                        <a href="art.html">Arts and Entertainment</a>
+                        <a href="Sports.html">Sports</a>
+                        <a href="social.html">Social Challenges</a>
+                        <a href="tourism.html">Tourism</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">ICONS</button>
+                    <div class="dropdown-content">
+                        <a href="fighter.html">Freedom Fighters</a>
+                        <a href="king.html">Ruling Entities</a>
+                        <a href="president.html">President</a>
+                        <a href="pm.html">Prime Minister</a>
+                        <a href="hero.html">Notable Indians</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">HISTORY</button>
+                    <div class="dropdown-content">
+                        <a href="ancient.html">Ancient Period</a>
+                        <a href="medival.html">Medieval Period</a>
+                        <a href="modern.html">Modern Period</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">REGION</button>
+                    <div class="dropdown-content">
+                        <a href="north_india.html">North India</a>
+                        <a href="south_india.html">South India</a>
+                        <a href="west_india.html">West India</a>
+                        <a href="east_india.html">East India</a>
+                        <a href="norteast_india.html">Northeast India</a>
+                        <a href="central_india.html">Central India</a>
+                    </div>
+                </li>
+                <li><a href="contect.html">CONTACT</a></li>
+
+                <div class="search">
+                    <input type="text" id="search-bar" placeholder="Search...">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+
+                <button class="subscribe-btn"><a href="subscribe.html">SUBSCRIBE</a></button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="subscription-container">
+            <div class="subscription-hero">
+                <div class="subscription-hero-content">
+                    <h1>Subscribe to India: That is Bharat</h1>
+                    <p>Stay updated with the latest content about India's rich heritage, culture, and current
+                        developments</p>
+                </div>
+            </div>
+
+            <div class="topic-card animate">
+                <h2>Join Our Newsletter</h2>
+                <p>Sign up to receive regular updates, exclusive content, and special features about various aspects of
+                    Indian civilization. Our newsletter brings you curated insights into India's history, culture,
+                    economy, and society.</p>
+            </div>
+
+            <div class="subscription-form animate">
+                <form name="subscription" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <p style="display: none;">
+                        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
+                    <input type="hidden" name="form-name" value="subscription" />
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" placeholder="Enter your country">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Interested Topics</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="history" name="interests" value="History">
+                                <label for="history">History</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="culture" name="interests" value="Culture">
+                                <label for="culture">Culture & Religion</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="economy" name="interests" value="Economy">
+                                <label for="economy">Economy</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="science" name="interests" value="Science">
+                                <label for="science">Science & Technology</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="arts" name="interests" value="Arts">
+                                <label for="arts">Arts & Entertainment</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="cuisine" name="interests" value="Cuisine">
+                                <label for="cuisine">Cuisine</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="frequency">Newsletter Frequency</label>
+                        <select id="frequency" name="frequency">
+                            <option value="weekly">Weekly</option>
+                            <option value="monthly">Monthly</option>
+                            <option value="quarterly">Quarterly</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to receive emails and updates from India: That is Bharat</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Subscribe Now</button>
+                </form>
+            </div>
+
+            <div class="benefits-section topic-card animate">
+                <h3>Benefits of Subscribing</h3>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Premium Articles</h4>
+                            <p>Receive access to premium long-form content and scholarly articles about India's history
+                                and culture</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Exclusive Documentaries</h4>
+                            <p>Watch specially curated documentaries exploring Indian heritage, traditions and
+                                innovations</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Early Access</h4>
+                            <p>Get early access to new website sections, features, and interactive content before public
+                                release</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Podcast Series</h4>
+                            <p>Listen to our exclusive podcast series featuring conversations with historians, scholars
+                                and cultural experts</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Community Forum</h4>
+                            <p>Join our private community forum to discuss topics with like-minded enthusiasts and
+                                experts</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Interactive Maps</h4>
+                            <p>Explore interactive historical and cultural maps showcasing India's rich regional
+                                diversity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-about">
+                <h4>About the Project</h4>
+                <p>This website aims to showcase the diverse culture, history, and heritage of India. It serves as a
+                    comprehensive resource for anyone interested in learning about the various aspects of Indian
+                    civilization.</p>
+            </div>
+
+            <div class="team-members">
+                <h4>Team Members</h4>
+                <ul>
+                    <li>Mitthu Kumar(Mayank)-Team Leader</li>
+                    <li>Adarsh Kumar Singh</li>
+                    <li>Prince Ojha</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2025 M K Shahi. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

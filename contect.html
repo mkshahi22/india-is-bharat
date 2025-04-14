@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Contact Us | India : That is Bharat</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    /* Contact Page Specific Styles */
+    .contact-hero {
+      background-image: url('/api/placeholder/1200/400');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      position: relative;
+    }
+
+    .contact-hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    .contact-hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      padding: 0 20px;
+    }
+
+    .contact-hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    .contact-hero p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+    }
+
+    .contact-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      padding: 40px 0;
+    }
+
+    .contact-info {
+      padding: 20px;
+    }
+
+    .contact-info h3 {
+      color: #FF6B35;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 25px;
+    }
+
+    .contact-item i {
+      font-size: 1.5rem;
+      color: #FF6B35;
+      margin-right: 15px;
+      width: 30px;
+      text-align: center;
+    }
+
+    .contact-text h4 {
+      margin: 0 0 5px 0;
+      color: #333;
+    }
+
+    .contact-text p {
+      margin: 0;
+      color: #666;
+    }
+
+    .contact-form {
+      background-color: #f9f9f9;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form h3 {
+      color: #FF6B35;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+    }
+
+    .form-group textarea {
+      min-height: 150px;
+      resize: vertical;
+    }
+
+    .submit-btn {
+      background-color: #FF6B35;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      font-weight: 500;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .submit-btn:hover {
+      background-color: #e55a2b;
+    }
+
+    .form-success {
+      padding: 20px;
+      background-color: #dff0d8;
+      border-radius: 4px;
+      color: #3c763d;
+      margin-top: 20px;
+      display: none;
+    }
+
+    .social-connect {
+      background-color: #f5f5f5;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .social-connect h3 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-icons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      background-color: #FF6B35;
+      color: white;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      transition: all 0.3s;
+    }
+
+    .social-icons a:hover {
+      background-color: #e55a2b;
+      transform: translateY(-3px);
+    }
+
+    @media (max-width: 768px) {
+      .contact-container {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header with Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./image/logo.png" alt="Bharat Map">
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul id="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">ABOUT</button>
+          <div class="dropdown-content">
+            <a href="geo.html">Geography & People</a>
+            <a href="economy.html">Economy</a>
+            <a href="religion.html">Culture and Religion</a>
+            <a href="gov_poli.html">Government and Politics</a>
+            <a href="language.html">Language</a>
+            <a href="education.html">Education</a>
+            <a href="science.html">Science and Technology</a>
+            <a href="environment.html">Wildlife and Environment</a>
+            <a href="Cuisine.html">Cuisine</a>
+            <a href="art.html">Arts and Entertainment</a>
+            <a href="Sports.html">Sports</a>
+            <a href="social.html">Social Challenges</a>
+            <a href="tourism.html">Tourism</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">ICONS</button>
+          <div class="dropdown-content">
+            <a href="fighter.html">Freedom Fighters</a>
+            <a href="king.html">Ruling Entities</a>
+            <a href="president.html">President</a>
+            <a href="pm.html">Prime Minister</a>
+            <a href="hero.html">Notable Indians</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">HISTORY</button>
+          <div class="dropdown-content">
+            <a href="ancient.html">Ancient Period</a>
+            <a href="medival.html">Medieval Period</a>
+            <a href="modern.html">Modern Period</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">REGION</button>
+          <div class="dropdown-content">
+            <a href="north_india.html">North India</a>
+            <a href="south_india.html">South India</a>
+            <a href="west_india.html">West India</a>
+            <a href="east_india.html">East India</a>
+            <a href="norteast_india.html">Northeast India</a>
+            <a href="central_india.html">Central India</a>
+          </div>
+        </li>
+        <li><a href="contect.html">CONTACT</a></li>
+
+        <div class="search">
+          <input type="text" id="search-bar" placeholder="Search...">
+          <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <button class="subscribe-btn"><a href="subscribe.html">SUBSCRIBE</a></button>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Contact Hero Section -->
+    <div class="contact-hero">
+      <div class="contact-hero-content">
+        <h1>Connect With Us</h1>
+        <p>Have questions about India? Want to contribute content? We'd love to hear from you!</p>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="contact-text">
+              <h4>Our Location</h4>
+              <p>New Delhi, India</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-text">
+              <h4>Email Us</h4>
+              <p>info@indiathatisbharat.com</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div class="contact-text">
+              <h4>Call Us</h4>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div class="contact-text">
+              <h4>Hours</h4>
+              <p>Monday - Friday: 9:00 AM - 5:00 PM IST</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-question-circle"></i>
+            <div class="contact-text">
+              <h4>Support</h4>
+              <p>We typically respond within 24-48 hours</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send a Message</h3>
+          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <p style="display: none;">
+              <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            <input type="hidden" name="form-name" value="contact" />
+
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Choose a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="feedback">Website Feedback</option>
+                <option value="contribution">Content Contribution</option>
+                <option value="correction">Factual Correction</option>
+                <option value="suggestion">Suggestion</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-connect">
+      <div class="container">
+        <h3>Connect With Us On Social Media</h3>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>FAQ</h3>
+      <div class="faq-section">
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle"></i> How can I contribute content to the website?</h4>
+          <p>If you have expertise in Indian history, culture, or any relevant field and would like to contribute,
+            please fill out our contact form selecting "Content Contribution" as the subject. Our editorial team will
+            review your proposal and get back to you.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle"></i> I found incorrect information on your website. How can I report it?
+          </h4>
+          <p>We strive for accuracy in all our content. If you've found an error, please use our contact form with the
+            subject "Factual Correction" and provide details about the error and the correct information. We appreciate
+            your help in improving our content.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle"></i> Do you accept guest posts?</h4>
+          <p>Yes, we welcome guest contributions from experts in relevant fields. Please contact us with your expertise
+            and proposed topic using our form above.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle"></i> How can I stay updated with new content?</h4>
+          <p>You can subscribe to our newsletter, follow us on social media, or create an account on our website to
+            receive notifications about new content and updates.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-about">
+        <h4>About the Project</h4>
+        <p>This website aims to showcase the diverse culture, history, and heritage of India. It serves as a
+          comprehensive resource for anyone interested in learning about the various aspects of Indian
+          civilization.</p>
+      </div>
+
+      <div class="team-members">
+        <h4>Team Members</h4>
+        <ul>
+          <li>Mitthu Kumar(Mayank)-Team Leader</li>
+          <li>Adarsh Kumar Singh</li>
+          <li>Prince Ojha</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>© 2025 M K Shahi. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <title>Cuisine - India : That is Bharat</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+   <!-- Header with Navigation Bar -->
+   <header>
+      <nav>
+         <div class="logo">
+            <img src="./image/logo.png" alt="Bharat Map">
+         </div>
+
+         <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+         </button>
+
+         <ul id="nav-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="dropdown">
+               <button class="dropbtn">ABOUT</button>
+               <div class="dropdown-content">
+                  <a href="geo.html">Geography & People</a>
+                  <a href="economy.html">Economy</a>
+                  <a href="religion.html">Culture and Religion</a>
+                  <a href="gov_poli.html">Government and Politics</a>
+                  <a href="language.html">Language</a>
+                  <a href="education.html">Education</a>
+                  <a href="science.html">Science and Technology</a>
+                  <a href="environment.html">Wildlife and Environment</a>
+                  <a href="Cuisine.html">Cuisine</a>
+                  <a href="art.html">Arts and Entertainment</a>
+                  <a href="Sports.html">Sports</a>
+                  <a href="social.html">Social Challenges</a>
+                  <a href="tourism.html">Tourism</a>
+               </div>
+            </li>
+            <li class="dropdown">
+               <button class="dropbtn">ICONS</button>
+               <div class="dropdown-content">
+                  <a href="fighter.html">Freedom Fighters</a>
+                  <a href="king.html">Ruling Entities</a>
+                  <a href="president.html">President</a>
+                  <a href="pm.html">Prime Minister</a>
+                  <a href="hero.html">Notable Indians</a>
+               </div>
+            </li>
+            <li class="dropdown">
+               <button class="dropbtn">HISTORY</button>
+               <div class="dropdown-content">
+                  <a href="ancient.html">Ancient Period</a>
+                  <a href="medival.html">Medieval Period</a>
+                  <a href="modern.html">Modern Period</a>
+               </div>
+            </li>
+            <li class="dropdown">
+               <button class="dropbtn">REGION</button>
+               <div class="dropdown-content">
+                  <a href="north_india.html">North India</a>
+                  <a href="south_india.html">South India</a>
+                  <a href="west_india.html">West India</a>
+                  <a href="east_india.html">East India</a>
+                  <a href="norteast_india.html">Northeast India</a>
+                  <a href="central_india.html">Central India</a>
+               </div>
+            </li>
+            <li><a href="contect.html">CONTACT</a></li>
+
+            <div class="search">
+               <input type="text" id="search-bar" placeholder="Search...">
+               <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+
+            <button class="subscribe-btn"><a href="subscribe.html">SUBSCRIBE</a></button>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <div class="hero-section cuisine-hero">
+         <div class="hero-overlay"
+            style="background: url('https://mrwallpaper.com/images/high/traditional-indian-food-in-flat-lay-photograph-l808i2de2j2bacdi.jpg') no-repeat center center/cover;">
+            <h2>Cuisine of India</h2>
+            <p>Experience the vibrant flavors and rich culinary traditions of the Indian subcontinent</p>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h1>Indian Cuisine: A Symphony of Flavors, Cultures, and Traditions</h1>
+         <p>Indian cuisine is as diverse as the country itself—a magnificent tapestry of flavors, techniques, and
+            cultural influences developed over thousands of years. From the spice-laden curries of the north to the
+            coconut-infused dishes of the south, Indian food reflects the country's complex history, geography,
+            religious practices, and multicultural heritage. With its masterful use of spices, regional diversity, and
+            profound philosophical connections to wellness, Indian cuisine has established itself as one of the world's
+            most beloved culinary traditions.</p>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Culinary Overview</h3>
+         <div class="economic-stats">
+            <div class="stat-item">
+               <i class="fas fa-pepper-hot"></i>
+               <h4>Diversity</h4>
+               <p>Over 30 distinct regional cuisines</p>
+               <p>Thousands of documented recipes</p>
+            </div>
+
+            <div class="stat-item">
+               <i class="fas fa-seedling"></i>
+               <h4>Vegetarian Heritage</h4>
+               <p>40% of Indians follow vegetarian diets</p>
+               <p>World's richest vegetarian cuisine</p>
+            </div>
+
+            <div class="stat-item">
+               <i class="fas fa-globe-asia"></i>
+               <h4>Global Influence</h4>
+               <p>Indian restaurants in 150+ countries</p>
+               <p>Curry recognized worldwide</p>
+            </div>
+
+            <div class="stat-item">
+               <i class="fas fa-mortar-pestle"></i>
+               <h4>Spice Legacy</h4>
+               <p>Uses 100+ distinct spices</p>
+               <p>Center of global spice trade for millennia</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Historical Evolution of Indian Cuisine</h3>
+         <div class="timeline-section">
+            <div class="timeline-item">
+               <div class="timeline-date">Ancient Period (3000 BCE - 1000 CE)</div>
+               <h4>Vedic and Classical Foundations</h4>
+               <p>The early Indian diet reflected agricultural developments in the Indus Valley and Gangetic plains,
+                  with barley, rice, legumes, and dairy products forming the foundation. The Ayurvedic tradition
+                  classified foods according to their effects on the body, establishing the principles of balanced
+                  eating. Archaeological evidence shows sophisticated cooking methods and early use of spices like
+                  turmeric, ginger, and cinnamon.</p>
+            </div>
+
+            <div class="timeline-item">
+               <div class="timeline-date">Medieval Period (1000 - 1700 CE)</div>
+               <h4>The Mughal Influence</h4>
+               <p>Muslim dynasties, particularly the Mughals, revolutionized Indian cuisine with Persian, Turkish, and
+                  Arab influences. This era introduced sophisticated techniques like dum cooking (slow cooking in sealed
+                  containers), rich gravies, refined rice dishes like biryani, and decadent breads like naan. The royal
+                  kitchens elevated cooking to an art form with elaborate preparations and presentation.</p>
+            </div>
+
+            <div class="timeline-item">
+               <div class="timeline-date">Colonial Era (1700 - 1947)</div>
+               <h4>European Exchanges</h4>
+               <p>European colonization brought new ingredients from the Americas including potatoes, tomatoes, chilies,
+                  and corn—now staples in Indian cooking. The British Raj saw the creation of Anglo-Indian dishes like
+                  kedgeree, mulligatawny soup, and railway curry. Tea culture became deeply embedded in Indian life
+                  during this period.</p>
+            </div>
+
+            <div class="timeline-item">
+               <div class="timeline-date">Modern Era (1947 - Present)</div>
+               <h4>Global Indian Cuisine</h4>
+               <p>Post-independence, Indian cuisine gained international recognition, with diaspora communities
+                  spreading Indian flavors worldwide. Urban migration created fusion cuisines within India. The current
+                  era has seen a renaissance of regional cooking traditions alongside modernist interpretations of
+                  classic dishes by chefs rekindling interest in forgotten recipes and techniques.</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Regional Culinary Landscapes</h3>
+         <div class="sectors-section">
+            <div class="sector-item">
+               <img src="/api/placeholder/400/250" alt="North Indian dishes">
+               <h4>North Indian Cuisine</h4>
+               <p>The wheat belt of India features robust, hearty dishes developed in the colder climate. Characterized
+                  by rich dairy use (ghee, paneer, cream), tandoor (clay oven) cooking, and distinctive breads like
+                  roti, naan, and paratha. Signature dishes include butter chicken, various paneer preparations, kebabs,
+                  and the diverse daals. Mughlai influence is pronounced, with aromatic rice dishes and meat
+                  preparations using warm spices like cardamom, cinnamon, and saffron.</p>
+            </div>
+
+            <div class="sector-item">
+               <img src="/api/placeholder/400/250" alt="South Indian dishes">
+               <h4>South Indian Cuisine</h4>
+               <p>Rice-based culinary traditions with extensive use of coconut, tamarind, and curry leaves. Famous for
+                  fermented preparations like dosa, idli, and uttapam that reflect ancient preservation techniques. The
+                  region's abundant coastline contributes to excellent seafood traditions. Distinguished by the
+                  sequential layering of spices through tempering (tadka) methods and extensive use of legumes. The
+                  tradition of serving meals on banana leaves with numerous small portions (thali) originates here.</p>
+            </div>
+
+            <div class="sector-item">
+               <img src="/api/placeholder/400/250" alt="East Indian dishes">
+               <h4>East Indian Cuisine</h4>
+               <p>Bengal, Assam, and neighboring states feature delicate flavors with mustard oil as the primary cooking
+                  medium. The region excels in fish preparations, reflecting the abundance of rivers. Sweet water fish
+                  curries with Bengali five-spice (panch phoron) are iconic. The tradition's sweet dishes revolutionized
+                  Indian confectionery, with rasgulla, sandesh, and mishti doi. Eastern cuisine skillfully balances
+                  sweet, bitter, and pungent flavors, with unique vegetables like banana flowers and colocasia leaves.
+               </p>
+            </div>
+
+            <div class="sector-item">
+               <img src="/api/placeholder/400/250" alt="West Indian dishes">
+               <h4>West Indian Cuisine</h4>
+               <p>Gujarat, Maharashtra, and Goa showcase distinct culinary identities. Gujarati cuisine balances sweet,
+                  salty, and spicy elements with unparalleled vegetarian diversity. Maharashtra offers robust, spicy
+                  dishes with groundnut and coconut bases. Goan cuisine demonstrates Portuguese influence with
+                  vinegar-infused curries, seafood expertise, and unique bread traditions like pao. The Western coastal
+                  belt excels in preserving techniques creating pickles, papads, and dried fish preparations that extend
+                  shelf life in tropical climates.</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>The Philosophy and Science of Indian Spices</h3>
+         <div class="innovation-section">
+            <div class="innovation-info">
+               <p>At the heart of Indian cuisine lies its sophisticated understanding and application of spices—not
+                  merely as flavor enhancers but as carriers of medicinal, preservative, and balancing properties. The
+                  mastery of spice combinations distinguishes Indian cooking from all other world cuisines, with each
+                  region developing signature masalas (spice blends) that reflect local ingredients and wellness
+                  traditions.</p>
+
+               <div class="innovation-highlights">
+                  <div class="highlight-item">
+                     <h4>Ayurvedic Foundations</h4>
+                     <p>Spice usage follows ancient Ayurvedic principles of balancing the six tastes (sweet, sour,
+                        salty, pungent, bitter, astringent) and three doshas (body types). Warming spices like cinnamon
+                        and cloves for winter, cooling spices like coriander and fennel for summer demonstrate seasonal
+                        awareness in traditional cooking.</p>
+                  </div>
+
+                  <div class="highlight-item">
+                     <h4>Signature Spice Blends</h4>
+                     <p>Regional masalas reflect local traditions—from the warming garam masala of the north to the
+                        coconut-based spice mixes of Kerala. Commercial spice blends became standardized in the 20th
+                        century, but family recipes for spice combinations remain closely guarded secrets passed through
+                        generations.</p>
+                  </div>
+
+                  <div class="highlight-item">
+                     <h4>Medicinal Applications</h4>
+                     <p>Turmeric's anti-inflammatory properties, fenugreek for digestion, cardamom as a breath
+                        freshener, and asafoetida as a digestive aid showcase the medicinal dimension of Indian cooking.
+                        Modern science continues to validate traditional wisdom about the therapeutic benefits of these
+                        spices.</p>
+                  </div>
+               </div>
+            </div>
+            <img src="/api/placeholder/450/300" alt="Indian spices collection">
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Dietary Traditions and Religious Influences</h3>
+         <div class="infrastructure-section">
+            <img src="/api/placeholder/450/300" alt="Traditional Indian thali">
+            <div class="infrastructure-info">
+               <p>India's diverse religious landscape has profoundly shaped its culinary traditions, resulting in
+                  sophisticated vegetarian cuisine, ritual foods, fasting traditions, and rules of food purity that vary
+                  across communities. These spiritual dimensions elevate Indian cooking beyond mere sustenance to a
+                  practice with philosophical significance.</p>
+
+               <div class="infrastructure-categories">
+                  <div class="infra-category">
+                     <h4>Hindu Influences</h4>
+                     <p>The concept of sattvic (pure, vegetarian) food for spiritual advancement, ritual significance of
+                        certain foods (like milk, honey, and ghee), and the development of vegetarian cuisine as an
+                        expression of ahimsa (non-violence) have shaped Hindu culinary practices across regions.</p>
+                  </div>
+
+                  <div class="infra-category">
+                     <h4>Islamic Traditions</h4>
+                     <p>Halal dietary laws, elaborate feast traditions like Eid celebrations, and the rich culinary
+                        heritage of Mughal cooking have contributed sophisticated meat preparations, aromatic rice
+                        dishes, and breads that have become part of India's mainstream cuisine.</p>
+                  </div>
+
+                  <div class="infra-category">
+                     <h4>Jain Dietary Principles</h4>
+                     <p>Strict vegetarianism that also excludes root vegetables (to avoid harming living beings) has led
+                        to ingenious cooking techniques and substitutions. Jain cuisine demonstrates how religious
+                        restrictions can inspire culinary creativity rather than limitation.</p>
+                  </div>
+
+                  <div class="infra-category">
+                     <h4>Buddhist Influences</h4>
+                     <p>The middle path approach to diet emphasizes moderation and mindful eating. Historical Buddhist
+                        monasteries were centers of culinary innovation, particularly in vegetarian cooking techniques
+                        that spread throughout Asia.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Iconic Indian Dishes and Their Origins</h3>
+         <div class="trade-section">
+            <div class="trade-charts">
+               <img src="/api/placeholder/500/300" alt="Collage of iconic Indian dishes">
+            </div>
+            <div class="trade-info">
+               <p>India's culinary repertoire includes thousands of dishes, but certain preparations have achieved
+                  iconic status for their flavor profiles, historical significance, or representation of regional
+                  mastery. Many popular "Indian" dishes have fascinating origin stories that reflect cultural exchanges
+                  and historical developments.</p>
+
+               <div class="trade-highlights">
+                  <div class="trade-highlight">
+                     <h4>Biryani's Journey</h4>
+                     <p>This layered rice dish has Persian origins but evolved into dozens of regional variations across
+                        India—from the saffron-rich Lucknowi biryani to the fiery Hyderabadi version, the fragrant
+                        Malabar preparations, and the distinctive Kolkata biryani with potatoes. Each tells a story of
+                        local adaptation and refinement.</p>
+                  </div>
+
+                  <div class="trade-highlight">
+                     <h4>The Invention of Butter Chicken</h4>
+                     <p>Contrary to popular belief, butter chicken is a relatively modern creation from 1950s Delhi,
+                        when restaurateur Kundan Lal Gujral repurposed leftover tandoori chicken by simmering it in a
+                        tomato-butter gravy. This improvisation created one of India's most globally recognized dishes.
+                     </p>
+                  </div>
+
+                  <div class="trade-highlight">
+                     <h4>Dosa's Ancient Roots</h4>
+                     <p>Mentioned in Tamil Sangam literature from the 6th century, the fermented rice and lentil crepe
+                        has evolved from a simple breakfast food to a canvas for countless variations. The paper dosa,
+                        masala dosa, and modern fusion variations showcase the dish's versatility.</p>
+                  </div>
+
+                  <div class="trade-highlight">
+                     <h4>Chaat's Street Food Revolution</h4>
+                     <p>Originating in Uttar Pradesh as a digestive aid recommended by physicians, chaat (meaning "to
+                        lick") evolved into India's beloved street food category, combining contrasting flavors and
+                        textures: sweet, sour, spicy, crunchy, and creamy elements in perfect harmony.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Culinary Techniques and Cookware</h3>
+         <div class="challenges-grid">
+            <div class="challenge-item">
+               <i class="fas fa-fire"></i>
+               <h4>Tadka (Tempering)</h4>
+               <p>The technique of blooming spices in hot oil or ghee to release essential oils and enhance flavors
+                  forms the foundational step in countless Indian preparations. Different regions have signature
+                  tempering ingredients—curry leaves and mustard seeds in the south, cumin and asafoetida in the north.
+               </p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-drumstick-bite"></i>
+               <h4>Tandoor Cooking</h4>
+               <p>The clay oven reaching temperatures of 480°C creates the distinctive charred exterior while
+                  maintaining interior moisture in breads, meats, and vegetables. This ancient technique predates
+                  recorded history and produces signature dishes like tandoori chicken and naan.</p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-utensils"></i>
+               <h4>Dum Pukht</h4>
+               <p>This slow-cooking method in sealed containers allows ingredients to cook in their own juices,
+                  originally developed to provide nutrition during famine. Perfected in the royal kitchens of Awadh, it
+                  creates exceptionally aromatic and tender preparations like biryani and certain kormas.</p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-blender"></i>
+               <h4>Hand Pounding</h4>
+               <p>Traditional masala preparation involved grinding spices on stone surfaces (sil batta) rather than
+                  electric grinders, releasing oils gradually and creating textured pastes with layered flavors that
+                  machine grinding cannot replicate.</p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-cookie"></i>
+               <h4>Fermentation</h4>
+               <p>South Indian cuisine mastered controlled fermentation to create naturally leavened foods like dosa,
+                  idli, and appam. Beyond texture, fermentation increases nutritional bioavailability and introduces
+                  probiotic benefits—an early understanding of gut health.</p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-mortar-pestle"></i>
+               <h4>Traditional Cookware</h4>
+               <p>Specialized vessels like the kadhai (wok-like pan), handi (clay pot), tawa (griddle), and pressure
+                  cooker define Indian cooking techniques. Each imparts specific characteristics—such as the iron
+                  kadhai's heat retention for proper bhuna (sautéing) of spices.</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Festivals and Celebratory Foods</h3>
+         <div class="policies-section">
+            <div class="policy-timeline">
+               <div class="policy-item">
+                  <div class="policy-year">Diwali</div>
+                  <h4>Festival of Lights</h4>
+                  <p>Sweets dominate Diwali celebrations, with regional specialties like kaju katli (cashew fudge),
+                     motichoor ladoo (sweetened gram flour balls), and various halwas. Savory snacks like chakli and
+                     mixture provide balance to the sweet abundance.</p>
+               </div>
+
+               <div class="policy-item">
+                  <div class="policy-year">Eid</div>
+                  <h4>Feast After Fast</h4>
+                  <p>Following Ramadan, Eid celebrations feature sheer khurma (vermicelli pudding), biryani, kebabs, and
+                     regional specialties like Hyderabadi haleem (meat and lentil stew). Family recipes often preserved
+                     for generations come alive during this celebration.</p>
+               </div>
+
+               <div class="policy-item">
+                  <div class="policy-year">Holi</div>
+                  <h4>Festival of Colors</h4>
+                  <p>Thandai (spiced milk drink, sometimes infused with bhang/cannabis), gujiya (sweet dumplings), and
+                     savory snacks like dahi vada mark this spring festival. Regional celebrations feature distinctive
+                     dishes like puran poli in Maharashtra and malpua in eastern states.</p>
+               </div>
+
+               <div class="policy-item">
+                  <div class="policy-year">Onam</div>
+                  <h4>Kerala Harvest Festival</h4>
+                  <p>The elaborate Onam sadhya served on banana leaves features over 25 dishes in a prescribed sequence.
+                     This vegetarian feast includes everything from crisp papadam to sour mango curry, sweet payasam,
+                     and multiple vegetable preparations—showcasing Kerala's biodiversity.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Indian Food Culture and Etiquette</h3>
+         <div class="regional-economies">
+            <img src="/api/placeholder/500/350" alt="Traditional Indian dining scene">
+            <div class="region-highlights">
+               <div class="region-highlight">
+                  <h4>The Art of Eating by Hand</h4>
+                  <p>Traditional Indian dining involves eating with the right hand, mixing textures and flavors with
+                     skilled movements. Beyond practicality, this practice engages all senses in the dining experience
+                     and follows Ayurvedic principles of connecting with food.</p>
+               </div>
+
+               <div class="region-highlight">
+                  <h4>Thali Tradition</h4>
+                  <p>The complete meal served on a single platter balances all six tastes and numerous textures.
+                     Regional thalis reflect local abundance—from the ghee-rich Rajasthani thali to the banana-leaf
+                     meals of Kerala, each following precise arrangement patterns.</p>
+               </div>
+
+               <div class="region-highlight">
+                  <h4>Family-Style Service</h4>
+                  <p>Communal dining with shared dishes reinforces family and community bonds. Service traditions
+                     include serving elders first, maintaining certain seating arrangements, and the custom of insisting
+                     guests take second helpings (a practice called "atithi devo bhava" or "the guest is god").</p>
+               </div>
+
+               <div class="region-highlight">
+                  <h4>Seasonal Eating</h4>
+                  <p>Traditional Indian cuisine follows strict seasonal patterns with specialized preparations for
+                     different times of year. Summer brings cooling foods like yogurt-based kadhi, while winter features
+                     warming dishes with ginger and other heating spices.</p>
+               </div>
+
+               <div class="region-highlight">
+                  <h4>Fasting Traditions</h4>
+                  <p>Religious fasting isn't about deprivation but rather switching to specialized "fasting foods" like
+                     buckwheat flour dishes, specific fruits, and dairy preparations. These periodic dietary changes
+                     serve as detoxification periods and spiritual practices.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Contemporary Indian Cuisine</h3>
+         <div class="future-economy">
+            <p>Indian cuisine continues to evolve rapidly, both within India and globally. Contemporary culinary
+               movements reflect changing lifestyles, increased global exposure, health consciousness, and renewed
+               interest in regional traditions. Several key trends are shaping the future of Indian food:</p>
+
+            <div class="future-trends">
+               <div class="trend-item">
+                  <i class="fas fa-utensils"></i>
+                  <h4>Progressive Indian</h4>
+                  <p>Chef-driven restaurants reinterpreting classical dishes with modern techniques, plating styles, and
+                     international influences. This movement has produced Michelin-starred Indian restaurants worldwide
+                     and elevated Indian cuisine to fine dining status globally.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-seedling"></i>
+                  <h4>Heritage Revival</h4>
+                  <p>Renewed interest in forgotten regional recipes, tribal cuisines, and ancient cooking methods has
+                     sparked research into historical cookbooks and oral traditions. Home cooks and chefs are preserving
+                     culinary heritage by documenting family recipes.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-globe-asia"></i>
+                  <h4>Diaspora Innovations</h4>
+                  <p>Indian communities worldwide have created distinctive fusion cuisines—from British curry houses to
+                     Trinidadian roti, South African bunny chow, and Malaysian mamak food. These adaptations often
+                     return to influence cooking within India itself.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-carrot"></i>
+                  <h4>Plant-Based Revolution</h4>
+                  <p>India's rich vegetarian tradition positions it perfectly for the global shift toward plant-based
+                     eating. Chefs are highlighting regional vegetarian specialties and creating innovative vegan
+                     adaptations of traditional dishes using indigenous ingredients.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-building"></i>
+                  <h4>Urban Street Food</h4>
+                  <p>Street food traditions are being elevated and reinvented in urban settings with improved hygiene,
+                     creative fusions, and innovative presentations. Food trucks and specialized chaat outlets have
+                     brought regional street specialties to metropolitan cities.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-heart"></i>
+                  <h4>Health-Conscious Adaptations</h4>
+                  <p>Traditional Indian wellness principles are being reapplied to create healthier versions of classic
+                     dishes—reducing oil content, incorporating more whole grains, emphasizing seasonal produce, and
+                     adapting Ayurvedic principles for modern nutritional needs.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Explore Further</h3>
+         <div class="related-topics">
+            <a href="religion.html" class="related-topic">
+               <i class="fas fa-om"></i>
+               <h4>Culture & Religion</h4>
+               <p>Understand how spiritual traditions influence Indian food practices</p>
+            </a>
+
+            <a href="tourism.html" class="related-topic">
+               <i class="fas fa-plane"></i>
+               <h4>Tourism</h4>
+               <p>Discover culinary destinations and food tourism in India</p>
+            </a>
+
+            <a href="art.html" class="related-topic">
+               <i class="fas fa-palette"></i>
+               <h4>Arts & Entertainment</h4>
+               <p>Explore how food features in Indian artistic and cultural expressions</p>
+            </a>
+
+            <a href="geo.html" class="related-topic">
+               <i class="fas fa-mountain"></i>
+               <h4>Geography & People</h4>
+               <p>Learn how regional landscapes shape local culinary traditions</p>
+            </a>
+         </div>
+      </div>
+   </main>
+
+   <!-- Back to Top Button -->
+   <div class="back-to-top" id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+   </div>
+
+   <!-- Footer Section -->
+   <footer>
+      <div class="footer-content">
+         <div class="footer-info">
+            <div class="social-links">
+               <a href="#"><i class="fab fa-facebook"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+         </div>
+
+         <div class="footer-about">
+            <h4>About the Project</h4>
+            <p>This website aims to showcase the diverse culture, history, and heritage of India. It serves as a
+               comprehensive resource for anyone interested in learning about the various aspects of Indian
+               civilization.</p>
+         </div>
+
+         <div class="team-members">
+            <h4>Team Members</h4>
+            <ul>
+               <li>Mitthu Kumar(Mayank)-Team Leader</li>
+               <li>Adarsh Kumar Singh</li>
+               <li>Prince Ojha</li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="copyright">
+         <p>© 2025 M K Shahi. All Rights Reserved.</p>
+      </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>

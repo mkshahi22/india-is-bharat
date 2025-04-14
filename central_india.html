@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Central India - India : That is Bharat</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- Main Logo Section -->
+  <div class="main_logo">
+    <img src="image/IND.png" alt="India Logo">
+  </div>
+
+  <!-- Header with Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./image/logo.png" alt="Bharat Map">
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul id="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">ABOUT</button>
+          <div class="dropdown-content">
+            <a href="geo.html">Geography & People</a>
+            <a href="economy.html">Economy</a>
+            <a href="religion.html">Culture and Religion</a>
+            <a href="gov_poli.html">Government and Politics</a>
+            <a href="language.html">Language</a>
+            <a href="education.html">Education</a>
+            <a href="science.html">Science and Technology</a>
+            <a href="environment.html">Wildlife and Environment</a>
+            <a href="Cuisine.html">Cuisine</a>
+            <a href="art.html">Arts and Entertainment</a>
+            <a href="Sports.html">Sports</a>
+            <a href="social.html">Social Challenges</a>
+            <a href="tourism.html">Tourism</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">ICONS</button>
+          <div class="dropdown-content">
+            <a href="fighter.html">Freedom Fighters</a>
+            <a href="king.html">Ruling Entities</a>
+            <a href="president.html">President</a>
+            <a href="pm.html">Prime Minister</a>
+            <a href="hero.html">Notable Indians</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">HISTORY</button>
+          <div class="dropdown-content">
+            <a href="ancient.html">Ancient Period</a>
+            <a href="medival.html">Medieval Period</a>
+            <a href="modern.html">Modern Period</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">REGION</button>
+          <div class="dropdown-content">
+            <a href="north_india.html">North India</a>
+            <a href="south_india.html">South India</a>
+            <a href="west_india.html">West India</a>
+            <a href="east_india.html">East India</a>
+            <a href="norteast_india.html">Northeast India</a>
+            <a href="central_india.html">Central India</a>
+          </div>
+        </li>
+        <li><a href="contect.html">CONTACT</a></li>
+
+        <div class="search">
+          <input type="text" id="search-bar" placeholder="Search...">
+          <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <button class="subscribe-btn"><a href="subscribe.html">SUBSCRIBE</a></button>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero-section">
+      <div class="hero-overlay"
+        style="background: url('https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/05/10/b9.jpg') no-repeat center center; background-size: cover;">
+        <h2>Central India</h2>
+        <p>Explore the heart of India - from ancient temples and dense forests to vibrant tribal cultures and wildlife
+          sanctuaries</p>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h1>Central India: The Cultural and Natural Core of Bharat</h1>
+      <p>Central India encompasses the states of Madhya Pradesh and Chhattisgarh, forming the geographical and cultural
+        heart of the Indian subcontinent. This region is characterized by rolling plateaus, dense forests, mighty
+        rivers,
+        and a rich tapestry of tribal cultures. From magnificent ancient temples and historic forts to pristine wildlife
+        sanctuaries and vibrant folk traditions, Central India offers a fascinating blend of natural beauty, cultural
+        heritage, and tribal diversity that represents a distinct and crucial aspect of India's identity.</p>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>States of Central India</h3>
+      <div class="states-grid">
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Madhya Pradesh landscape">
+          <h4>Madhya Pradesh</h4>
+          <p>Known as the "Heart of India," Madhya Pradesh boasts extraordinary archaeological treasures, diverse
+            wildlife, spectacular landscapes, and vibrant tribal cultures. The state balances its rich historical legacy
+            with industrial development and eco-tourism initiatives.</p>
+          <a href="#mp" class="state-link">Explore Madhya Pradesh <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Chhattisgarh tribal culture">
+          <h4>Chhattisgarh</h4>
+          <p>Called the "Rice Bowl of India," Chhattisgarh is known for its abundant natural resources, dense forests,
+            waterfalls, and diverse tribal communities with distinctive art forms and traditions. The state blends
+            industrial growth with preservation of its unique cultural heritage.</p>
+          <a href="#cg" class="state-link">Explore Chhattisgarh <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="mp">
+      <h3>Madhya Pradesh: The Heart of India</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Madhya Pradesh, India's second-largest state by area, is a land of extraordinary diversity. From UNESCO
+            World Heritage sites to pristine forests and wildlife reserves, the state's topography ranges from plateaus
+            and mountains to river valleys and plains, creating varied ecosystems and cultures.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Bhopal (Capital), Indore, Gwalior, Jabalpur, Ujjain, Khajuraho, Orchha</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Hindi, Malvi, Nimadi, Bundeli, Bagheli, Tribal languages (Gondi, Bhili)</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, mining, manufacturing, tourism, textiles, forest products, information technology</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-monument"></i>
+                <h5>Khajuraho Temples</h5>
+                <p>UNESCO World Heritage site featuring exquisitely carved temples from the Chandela dynasty</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-tiger"></i>
+                <h5>Bandhavgarh & Kanha</h5>
+                <p>Premier tiger reserves with high tiger densities and diverse wildlife</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-gopuram"></i>
+                <h5>Sanchi Stupa</h5>
+                <p>Ancient Buddhist monument built by Emperor Ashoka with remarkable stone carvings</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Marble Rocks, Jabalpur</h5>
+                <p>Stunning marble formations along the Narmada River creating a spectacular gorge</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Madhya Pradesh landscape and temples">
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h4>More About Madhya Pradesh</h4>
+      <div class="mp-attractions">
+        <div class="attraction-row">
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Orchha Fort">
+            <h5>Orchha</h5>
+            <p>Medieval fortified town with grand palaces, temples, and cenotaphs along the Betwa River that showcase
+              spectacular Bundela architecture</p>
+          </div>
+
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Ujjain temples">
+            <h5>Ujjain</h5>
+            <p>Ancient sacred city and one of Hinduism's seven holy cities, known for the Mahakaleshwar Temple and Kumbh
+              Mela celebrations</p>
+          </div>
+
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Gwalior Fort">
+            <h5>Gwalior Fort</h5>
+            <p>Imposing hilltop fort described as "the pearl amongst fortresses in India" with palaces, temples, and
+              historic significance</p>
+          </div>
+        </div>
+
+        <div class="attraction-row">
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Bhimbetka caves">
+            <h5>Bhimbetka Rock Shelters</h5>
+            <p>UNESCO World Heritage site featuring prehistoric cave paintings dating back to approximately 30,000 years
+              ago</p>
+          </div>
+
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Bhopal landmarks">
+            <h5>Bhopal</h5>
+            <p>The "City of Lakes" combines Islamic architectural heritage with modern urban development and cultural
+              institutions</p>
+          </div>
+
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Panchmarhi hills">
+            <h5>Pachmarhi</h5>
+            <p>Only hill station in MP, located in the Satpura Range with colonial architecture, waterfalls, and cave
+              temples</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="cg">
+      <h3>Chhattisgarh: Land of Tribal Heritage</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Chhattisgarh tribal culture and nature">
+        <div class="state-info">
+          <p>Carved out of Madhya Pradesh in 2000, Chhattisgarh is known for its rich mineral resources, dense forests,
+            and vibrant tribal cultures. The state's name derives from "chhattis garh" meaning "thirty-six forts" and
+            reflects its historical significance as a region of many small kingdoms.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Raipur (Capital), Bilaspur, Bhilai, Durg, Korba, Jagdalpur</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Chhattisgarhi, Hindi, Tribal languages (Gondi, Halbi, Bhatri, Oraon)</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Mining (coal, iron, limestone), steel production, agriculture (rice), forest products, handicrafts</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Chitrakote Falls</h5>
+                <p>India's widest waterfall (300m wide) on the Indravati River, often called the "Niagara of India"</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-gopuram"></i>
+                <h5>Bhoramdeo Temple</h5>
+                <p>Ancient 11th-century temple known as the "Khajuraho of Chhattisgarh" with intricate carvings</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-map-marked"></i>
+                <h5>Bastar Region</h5>
+                <p>Tribal heartland with distinctive culture, crafts, and the famous Dussehra festival lasting 75 days
+                </p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-tree"></i>
+                <h5>Kanger Valley National Park</h5>
+                <p>Biodiversity hotspot with caves, waterfalls, and rare wildlife in pristine forest setting</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h4>More About Chhattisgarh</h4>
+      <div class="cg-attractions">
+        <div class="attraction-row">
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Sirpur archaeological site">
+            <h5>Sirpur</h5>
+            <p>Archaeological treasure with Buddhist, Hindu, and Jain monuments dating back to the 5th-8th centuries CE,
+              including the Lakshmana Temple</p>
+          </div>
+
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Raipur city">
+            <h5>Raipur</h5>
+            <p>Modern capital city with historical sites like Mahant Ghasidas Memorial Museum, Dudhadhari Math, and
+              Purkhauti Muktangan cultural complex</p>
+          </div>
+
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Barnawapara Wildlife Sanctuary">
+            <h5>Barnawapara Wildlife Sanctuary</h5>
+            <p>Protected area with diverse flora and fauna including leopards, bears, and various deer species in a
+              serene forest environment</p>
+          </div>
+        </div>
+
+        <div class="attraction-row">
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Tirathgarh Waterfall">
+            <h5>Tirathgarh Waterfall</h5>
+            <p>Multi-tiered waterfall in Kanger Valley offering spectacular views and sacred bathing spots along the
+              Kanger River</p>
+          </div>
+
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Mainpat plateau">
+            <h5>Mainpat</h5>
+            <p>Known as the "Shimla of Chhattisgarh," this plateau offers rolling meadows, waterfalls, and Tibetan
+              refugee settlements</p>
+          </div>
+
+          <div class="attraction-card">
+            <img src="/api/placeholder/350/250" alt="Rajim Kumbh">
+            <h5>Rajim</h5>
+            <p>Ancient temple town at the confluence of three rivers, famous for the annual Rajim Kumbh Mela festival
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Tribal Heritage of Central India</h3>
+      <div class="tribal-section">
+        <img src="/api/placeholder/450/300" alt="Central Indian tribal culture">
+        <div class="tribal-info">
+          <p>Central India is home to one of the largest concentrations of indigenous tribal populations in the country,
+            with distinctive cultures, languages, art forms, and traditions that have been preserved for centuries.</p>
+
+          <div class="tribal-highlights">
+            <div class="tribal-highlight">
+              <h4>Major Tribes</h4>
+              <p>The region is home to numerous tribal communities including Gond, Baiga, Bhil, Maria, Muria, Halba,
+                Korku, Sahariya, and many others, each with their unique cultural identity.</p>
+            </div>
+
+            <div class="tribal-highlight">
+              <h4>Art Forms</h4>
+              <p>Tribal art forms like Gond painting, Pithora art, bell metal craft of Bastar, terracotta, bamboo craft,
+                and tribal jewelry represent distinctive artistic traditions passed through generations.</p>
+            </div>
+
+            <div class="tribal-highlight">
+              <h4>Festivals & Rituals</h4>
+              <p>Tribal communities celebrate numerous festivals related to harvest, seasons, and religious beliefs,
+                including the unique 75-day Bastar Dussehra, Madai festival, Bhoramdeo festival, and Danda Nach.</p>
+            </div>
+
+            <div class="tribal-highlight">
+              <h4>Living Heritage</h4>
+              <p>Several museums and cultural centers like the Tribal Museum in Bhopal and Anthropological Museum in
+                Jagdalpur document and celebrate the rich tribal heritage of the region.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Cultural Heritage of Central India</h3>
+      <div class="culture-section">
+        <div class="culture-category">
+          <i class="fas fa-music"></i>
+          <h4>Music & Dance</h4>
+          <p>Central India features diverse folk traditions including Pandavani (narrative singing from Chhattisgarh),
+            Jawara and Matki dance (MP), Karma, Saila, and Raut Nacha tribal dances. These performances often narrate
+            mythological stories or celebrate seasonal events.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-palette"></i>
+          <h4>Arts & Crafts</h4>
+          <p>The region is renowned for Gond and Bhil tribal painting, Bastar iron craft, Maheshwari and Chanderi
+            textiles of MP, bamboo crafts, bell metal work, terracotta, and traditional jewelry that reflect centuries
+            of
+            artistic evolution.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-landmark"></i>
+          <h4>Architecture</h4>
+          <p>The architectural landscape includes temples from various periods (Gupta, Kalachuri, Chandela), Buddhist
+            structures, medieval forts, colonial buildings, and traditional tribal dwellings with distinctive regional
+            styles.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-utensils"></i>
+          <h4>Cuisine</h4>
+          <p>Central Indian cuisine features wheat and rice-based staples with regional specialties like MP's Dal Bafla,
+            Poha, and Bhopali cuisine influenced by Mughal traditions, while Chhattisgarh offers rice specialties,
+            forest foods, and tribal delicacies.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Festivals of Central India</h3>
+      <div class="festivals-section">
+        <div class="festival-grid">
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Lokrang Festival">
+            <h4>Lokrang Festival</h4>
+            <p>Annual cultural celebration in Bhopal showcasing folk arts, crafts, music, and dance forms from across
+              Central India.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Bastar Dussehra">
+            <h4>Bastar Dussehra</h4>
+            <p>Unique 75-day celebration in Jagdalpur that differs from the traditional Dussehra and centers around the
+              local goddess Danteshwari.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Tansen Music Festival">
+            <h4>Tansen Music Festival</h4>
+            <p>Celebrated in Gwalior near Tansen's tomb, this festival honors the legendary musician with classical
+              performances.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Hareli Festival">
+            <h4>Hareli</h4>
+            <p>Agricultural festival in Chhattisgarh marking the beginning of the farming season with rituals and
+              celebration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Spiritual & Religious Significance</h3>
+      <div class="spiritual-section">
+        <div class="spiritual-info">
+          <p>Central India has been a cradle of various religious traditions and houses important sites sacred to
+            Hinduism, Buddhism, and Jainism, as well as indigenous tribal belief systems.</p>
+          <div class="spiritual-places">
+            <div class="spiritual-category">
+              <h4>Hinduism</h4>
+              <p>The region contains important Hindu pilgrimage sites like Ujjain (one of the four sites of the Kumbh
+                Mela), Omkareshwar and Maheshwar on the Narmada river, Amarkantak (source of the Narmada), and numerous
+                ancient temples.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Buddhism</h4>
+              <p>The UNESCO World Heritage site of Sanchi houses one of India's oldest stone structures and the Great
+                Stupa built by Emperor Ashoka. Sirpur in Chhattisgarh was once a significant Buddhist center with
+                monasteries.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Jainism</h4>
+              <p>Sonagiri in MP with its sacred hill containing numerous Jain temples, Kundalpur with 63 temples, and
+                the
+                ancient Jain monuments at Khajuraho represent the rich Jain heritage of Central India.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Tribal Faiths</h4>
+              <p>Indigenous communities maintain their traditional belief systems, sacred groves, and nature worship
+                practices that have co-existed with mainstream religions for centuries.</p>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/300" alt="Central Indian religious sites">
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Natural Wonders</h3>
+      <div class="nature-section">
+        <div class="nature-grid">
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Narmada River">
+            <h4>Narmada River Valley</h4>
+            <p>The sacred river flowing through Central India creates spectacular marble gorges, waterfalls, and holds
+              religious significance as one of India's holiest waterways.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Satpura Range">
+            <h4>Satpura & Vindhya Ranges</h4>
+            <p>These ancient mountain ranges cradle rich biodiversity, tribal cultures, and create diverse landscapes
+              from dense forests to plateaus across Central India.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Pachmarhi Biosphere">
+            <h4>Pachmarhi Biosphere Reserve</h4>
+            <p>UNESCO-designated biosphere reserve with unique ecosystems, waterfalls, ancient cave shelters, and rich
+              biodiversity in the Satpura Range.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Kanger Valley">
+            <h4>Kanger Valley & Bastar Plateau</h4>
+            <p>Chhattisgarh's pristine forests featuring spectacular limestone caves, underground rivers, and waterfalls
+              in a biodiversity-rich landscape.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Wildlife Sanctuaries & National Parks</h3>
+      <div class="wildlife-section">
+        <img src="/api/placeholder/450/300" alt="Central Indian wildlife">
+        <div class="wildlife-info">
+          <p>Central India houses some of India's most spectacular wildlife reserves and is particularly known for its
+            tiger habitats. The region's varied terrain creates diverse ecosystems that support rich biodiversity.</p>
+
+          <div class="wildlife-parks">
+            <div class="wildlife-category">
+              <h4>Tiger Reserves</h4>
+              <p>The region is home to world-renowned tiger reserves including Kanha, Bandhavgarh, Pench, and Satpura in
+                MP, and Achanakmar, Udanti-Sitanadi, and Indravati in Chhattisgarh, which together protect significant
+                tiger populations.</p>
+            </div>
+
+            <div class="wildlife-category">
+              <h4>Other Protected Areas</h4>
+              <p>Beyond tigers, various sanctuaries protect diverse wildlife: Panna (tigers and vultures), Son Gharial
+                (crocodilians), Barnawapara (bears and antelopes), and many others preserving Central India's ecological
+                heritage.</p>
+            </div>
+
+            <div class="wildlife-category">
+              <h4>Flagship Species</h4>
+              <p>Central India's forests are home to significant populations of tigers, leopards, barasingha (swamp
+                deer), gaur (Indian bison), wild dogs, sloth bears, and numerous bird species in their natural habitats.
+              </p>
+            </div>
+
+            <div class="wildlife-category">
+              <h4>Conservation Efforts</h4>
+              <p>The region has pioneered wildlife conservation initiatives, including the successful reintroduction of
+                tigers in Panna after local extinction, community-based conservation, and eco-tourism models.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Historical Significance</h3>
+      <div class="history-section">
+        <div class="history-timeline">
+          <div class="timeline-item">
+            <h4>Ancient Period</h4>
+            <p>Central India was home to prehistoric human settlements as evidenced by the Bhimbetka rock shelters. The
+              region was ruled by various dynasties including the Mauryas, Guptas, and Kalachuris who left behind rich
+              architectural legacies.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Medieval Period</h4>
+            <p>The region saw the rise of various Rajput kingdoms, the Gond dynasty (one of India's largest tribal
+              kingdoms), and later came under Maratha influence. Impressive forts, palaces, and temples were built
+              during
+              this period.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Colonial Era</h4>
+            <p>Central India was divided into numerous princely states under British paramountcy, with some areas under
+              direct British rule. The region witnessed significant resistance movements against colonial power.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Modern Period</h4>
+            <p>After independence, the region became part of Madhya Pradesh state. In 2000, Chhattisgarh was carved out
+              as a separate state to better address the needs and development of the tribal-dominated eastern regions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Modern Central India</h3>
+      <div class="modern-section">
+        <div class="modern-info">
+          <p>While preserving its rich cultural heritage and natural treasures, Central India is undergoing significant
+            transformation with industrial development, urban growth, and infrastructure projects.</p>
+
+          <div class="modern-highlights">
+            <div class="modern-highlight">
+              <h4>Urban Development</h4>
+              <p>Cities like Indore (consistently ranked among India's cleanest cities), Bhopal, Raipur, and Jabalpur
+                are growing as educational, industrial, and commercial centers with improved urban infrastructure.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Industrial Growth</h4>
+              <p>The region's abundant mineral resources support industries like steel (Bhilai), aluminum (Korba),
+                cement
+                production, and mining, while IT parks are emerging in major cities to diversify the economy.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Infrastructure</h4>
+              <p>Major highway corridors, railway networks, and airport expansions are improving connectivity within
+                Central India and to other parts of the country, boosting tourism and industrial growth.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Development Challenges</h4>
+              <p>The region continues to address challenges including balanced development between tribal and urban
+                areas, sustainable resource management, and socio-economic disparities while preserving cultural
+                heritage.</p>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/300" alt="Modern Central Indian cities">
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Travel Information</h3>
+      <div class="travel-info">
+        <div class="travel-season">
+          <h4>Best Time to Visit</h4>
+          <div class="season-grid">
+            <div class="season">
+              <i class="fas fa-snowflake"></i>
+              <h5>Winter (Oct-Feb)</h5>
+              <p>Ideal season to explore Central India with pleasant temperatures perfect for wildlife safaris, temple
+                visits, and outdoor activities</p>
+            </div>
+
+            <div class="season">
+              <i class="fas fa-sun"></i>
+              <h5>Summer (Mar-Jun)</h5>
+              <p>Hot in the plains, but good time to visit hill stations like Pachmarhi and Mainpat; wildlife sightings
+                are excellent at water sources</p>
+            </div>
+
+            <div class="season">
+              <i class="fas fa-cloud-rain"></i>
+              <h5>Monsoon (Jul-Sep)</h5>
+              <p>Brings lush green landscapes, flowing waterfalls, but some forest areas and wildlife reserves may have
+                limited access</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="travel-tips">
+          <h4>Travel Tips</h4>
+          <ul>
+            <li><i class="fas fa-road"></i> <span>Plan at least a week to explore either state properly; two weeks for a
+                comprehensive Central India tour</span></li>
+            <li><i class="fas fa-camera"></i> <span>Book wildlife safaris in advance, especially during peak season
+                (October-March)</span></li>
+            <li><i class="fas fa-utensils"></i> <span>Try regional specialties like Dal Bafla (MP), Poha, tribal
+                cuisines, and Chhattisgarhi rice dishes</span></li>
+            <li><i class="fas fa-shopping-bag"></i> <span>Shop for tribal art, Chanderi and Maheshwari fabrics, bell
+                metal crafts, and Gond paintings</span></li>
+            <li><i class="fas fa-map-marked"></i> <span>Respect tribal customs and seek permission before photographing
+                tribal communities or ceremonies</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Getting Around Central India</h3>
+      <div class="transport-section">
+        <div class="transport-grid">
+          <div class="transport-item">
+            <i class="fas fa-plane"></i>
+            <h4>By Air</h4>
+            <p>Major airports at Bhopal, Indore, Jabalpur, and Raipur with connections to metropolitan cities. Smaller
+              airports at Gwalior, Khajuraho, and Bilaspur with limited connectivity.</p>
+          </div>
+
+          <div class="transport-item">
+            <i class="fas fa-train"></i>
+            <h4>By Train</h4>
+            <p>Extensive railway network connecting major cities and tourist destinations. The West Central and South
+              East Central Railway zones provide good connectivity.</p>
+          </div>
+
+          <div class="transport-item">
+            <i class="fas fa-bus"></i>
+            <h4>By Road</h4>
+            <p>Well-developed highway network with state-run and private bus services. NH-44, NH-53, and NH-30 are major
+              highways traversing the region.</p>
+          </div>
+
+          <div class="transport-item">
+            <i class="fas fa-car"></i>
+            <h4>Local Transport</h4>
+            <p>Auto-rickshaws, taxis, and rental cars available in cities. For rural and tribal areas, local guides and
+              specialized tour operators are recommended.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Explore Further</h3>
+      <div class="related-topics">
+        <a href="north_india.html" class="related-topic">
+          <i class="fas fa-compass"></i>
+          <h4>North India</h4>
+          <p>Discover the Himalayan grandeur and Indo-Gangetic cultural heritage</p>
+        </a>
+
+        <a href="east_india.html" class="related-topic">
+          <i class="fas fa-landmark"></i>
+          <h4>East India</h4>
+          <p>Explore the cultural and natural diversity of India's eastern states</p>
+        </a>
+
+        <a href="tribe.html" class="related-topic">
+          <i class="fas fa-users"></i>
+          <h4>Tribal Heritage</h4>
+          <p>Learn more about India's tribal communities and their living traditions</p>
+        </a>
+
+        <a href="wildlife.html" class="related-topic">
+          <i class="fas fa-paw"></i>
+          <h4>Wildlife Conservation</h4>
+          <p>Discover India's efforts to protect its diverse fauna and their habitats</p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-about">
+        <h4>About the Project</h4>
+        <p>This website aims to showcase the diverse culture, history, and heritage of India. It serves as a
+          comprehensive resource for anyone interested in learning about the various aspects of Indian
+          civilization.</p>
+      </div>
+
+      <div class="team-members">
+        <h4>Team Members</h4>
+        <ul>
+          <li>Mitthu Kumar(Mayank)-Team Leader</li>
+          <li>Adarsh Kumar Singh</li>
+          <li>Prince Ojha</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>© 2025 M K Shahi. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

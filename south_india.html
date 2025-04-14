@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>South India - India : That is Bharat</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- Main Logo Section -->
+  <div class="main_logo">
+    <img src="image/IND.png" alt="India Logo">
+  </div>
+
+  <!-- Header with Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./image/logo.png" alt="Bharat Map">
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul id="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">ABOUT</button>
+          <div class="dropdown-content">
+            <a href="geo.html">Geography & People</a>
+            <a href="economy.html">Economy</a>
+            <a href="religion.html">Culture and Religion</a>
+            <a href="gov_poli.html">Government and Politics</a>
+            <a href="language.html">Language</a>
+            <a href="education.html">Education</a>
+            <a href="science.html">Science and Technology</a>
+            <a href="environment.html">Wildlife and Environment</a>
+            <a href="Cuisine.html">Cuisine</a>
+            <a href="art.html">Arts and Entertainment</a>
+            <a href="Sports.html">Sports</a>
+            <a href="social.html">Social Challenges</a>
+            <a href="tourism.html">Tourism</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">ICONS</button>
+          <div class="dropdown-content">
+            <a href="fighter.html">Freedom Fighters</a>
+            <a href="king.html">Ruling Entities</a>
+            <a href="president.html">President</a>
+            <a href="pm.html">Prime Minister</a>
+            <a href="hero.html">Notable Indians</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">HISTORY</button>
+          <div class="dropdown-content">
+            <a href="ancient.html">Ancient Period</a>
+            <a href="medival.html">Medieval Period</a>
+            <a href="modern.html">Modern Period</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">REGION</button>
+          <div class="dropdown-content">
+            <a href="north_india.html">North India</a>
+            <a href="south_india.html">South India</a>
+            <a href="west_india.html">West India</a>
+            <a href="east_india.html">East India</a>
+            <a href="norteast_india.html">Northeast India</a>
+            <a href="central_india.html">Central India</a>
+          </div>
+        </li>
+        <li><a href="contect.html">CONTACT</a></li>
+
+        <div class="search">
+          <input type="text" id="search-bar" placeholder="Search...">
+          <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <button class="subscribe-btn"><a href="subscribe.html">SUBSCRIBE</a></button>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero-section" style="background-image: url('/api/placeholder/1200/500');">
+      <div class="hero-overlay"
+        style="background: url('https://www.skepcoliving.com/wp-content/uploads/2023/08/10-Best-Places-in-South-India-Plan-A-Perfect-Holiday-1-jpg.webp') no-repeat center center; background-size: cover;">
+        <h2>South India</h2>
+        <p>Discover the ancient Dravidian heritage, lush coastal landscapes, and vibrant cultural traditions of India's
+          southern peninsula</p>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h1>South India: The Land of Ancient Civilizations and Cultural Richness</h1>
+      <p>South India encompasses the peninsular region of the Indian subcontinent, characterized by coastal plains,
+        Western and Eastern Ghats mountain ranges, and the expansive Deccan Plateau. This culturally distinct region has
+        been home to some of the world's oldest continuously existing civilizations and powerful dynasties including the
+        Cholas, Pandyas, Cheras, Satavahanas, Chalukyas, Pallavas, and Vijayanagara Empire. South India's unique
+        Dravidian culture, classical arts, temple architecture, literature, and culinary traditions have flourished for
+        millennia, creating a rich tapestry that continues to thrive alongside modern development.</p>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>States of South India</h3>
+      <div class="states-grid">
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Karnataka landscape">
+          <h4>Karnataka</h4>
+          <p>Home to the tech hub of Bengaluru and magnificent ruins of Hampi, Karnataka balances cutting-edge
+            innovation with ancient heritage. The state showcases diverse landscapes from coastal beaches to lush
+            Western Ghats forests and historic sites of the Deccan sultanates.</p>
+          <a href="#karnataka" class="state-link">Explore Karnataka <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Kerala backwaters">
+          <h4>Kerala</h4>
+          <p>Known as "God's Own Country," Kerala features tranquil backwaters, pristine beaches, and verdant hill
+            stations. With nearly 100% literacy, unique matrilineal traditions, and ayurvedic heritage, Kerala
+            represents a distinctive blend of natural beauty and progressive social development.</p>
+          <a href="#kerala" class="state-link">Explore Kerala <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Tamil Nadu temples">
+          <h4>Tamil Nadu</h4>
+          <p>The heartland of Dravidian culture and classical arts, Tamil Nadu is home to magnificent temple complexes,
+            classical music and dance traditions, and the world's oldest continuously used language. The state combines
+            profound spiritual heritage with industrial growth and vibrant urban centers.</p>
+          <a href="#tamilnadu" class="state-link">Explore Tamil Nadu <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Telangana Charminar">
+          <h4>Telangana</h4>
+          <p>India's newest state showcases a blend of Hindu and Islamic influences centered around the historic city of
+            Hyderabad with its distinctive Nizami culture. Telangana preserves folk traditions while establishing itself
+            as an emerging technology and pharmaceutical center.</p>
+          <a href="#telangana" class="state-link">Explore Telangana <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Andhra Pradesh landscape">
+          <h4>Andhra Pradesh</h4>
+          <p>Known as the "Rice Bowl of India," Andhra Pradesh combines coastal beauty with rich agricultural traditions
+            and ancient Buddhist sites. The state features sacred pilgrimage destinations, distinctive crafts, and spicy
+            cuisine that has gained popularity worldwide.</p>
+          <a href="#andhra" class="state-link">Explore Andhra Pradesh <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="karnataka">
+      <h3>Karnataka: Where Tradition Meets Technology</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Karnataka showcases a remarkable blend of ancient heritage and modern innovation. From the ruins of
+            powerful empires to the IT campuses of Bengaluru, the state represents the harmonious coexistence of past
+            and present that characterizes South Indian identity.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Bengaluru (Capital), Mysuru, Mangaluru, Hampi, Badami, Udupi</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Kannada, Tulu, Konkani, Kodava</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Information technology, biotechnology, aerospace, manufacturing, agriculture, tourism</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-building"></i>
+                <h5>Bengaluru</h5>
+                <p>India's Silicon Valley with vibrant startup culture, gardens, and colonial architecture</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-landmark"></i>
+                <h5>Hampi</h5>
+                <p>UNESCO World Heritage site featuring spectacular ruins of the Vijayanagara Empire</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-palace"></i>
+                <h5>Mysuru</h5>
+                <p>City of palaces known for Dasara celebrations, silk, and sandalwood crafts</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Coorg (Kodagu)</h5>
+                <p>Misty hill station renowned for coffee plantations and distinct martial culture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Karnataka Hampi ruins">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="kerala">
+      <h3>Kerala: God's Own Country</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Kerala backwaters">
+        <div class="state-info">
+          <p>Kerala is known for its exceptional natural beauty, progressive social indicators, and unique cultural
+            traditions. With palm-fringed backwaters, pristine beaches, misty hill stations, and ancient trading ports,
+            the region has attracted visitors for centuries.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Thiruvananthapuram (Capital), Kochi, Kozhikode, Thrissur, Alappuzha</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Malayalam, Tamil</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Tourism, spice trade, fishing, coir industry, IT services, healthcare, remittances</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Alleppey Backwaters</h5>
+                <p>Network of lagoons and canals best explored by traditional houseboats (kettuvallams)</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Munnar</h5>
+                <p>Hill station characterized by expansive tea plantations and cool mountain climate</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-tree"></i>
+                <h5>Thekkady (Periyar)</h5>
+                <p>Wildlife sanctuary offering boat safaris through forests teeming with elephants and tigers</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-umbrella-beach"></i>
+                <h5>Kovalam</h5>
+                <p>Crescent-shaped beaches known for Ayurvedic treatments and water sports</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="tamilnadu">
+      <h3>Tamil Nadu: The Land of Temples</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Tamil Nadu is the cradle of Dravidian civilization with a cultural continuity spanning thousands of years.
+            Home to some of the world's most spectacular temple complexes, classical arts, and the ancient Tamil
+            language, the state maintains strong cultural identity alongside economic development.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Chennai (Capital), Madurai, Coimbatore, Thanjavur, Kanyakumari, Tiruchirapalli</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Tamil</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Manufacturing, automobiles, textiles, IT/ITES, cinema, tourism, agriculture</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-gopuram"></i>
+                <h5>Meenakshi Temple, Madurai</h5>
+                <p>Massive temple complex with towering rainbow-colored gopurams (gateway towers)</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-landmark"></i>
+                <h5>Thanjavur</h5>
+                <p>Cultural capital featuring the Brihadeeswara Temple, a UNESCO World Heritage masterpiece</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-archway"></i>
+                <h5>Mahabalipuram</h5>
+                <p>Ancient port city with rock-cut temples and the Shore Temple overlooking the Bay of Bengal</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Ooty</h5>
+                <p>Queen of hill stations established by the British with pleasant climate and botanical gardens</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Tamil Nadu temple architecture">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="telangana">
+      <h3>Telangana: A Blend of Cultures</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Hyderabad Charminar">
+        <div class="state-info">
+          <p>Formed in 2014 as India's newest state, Telangana showcases a distinctive cultural identity shaped by Hindu
+            and Islamic influences. Centered around the historic city of Hyderabad, the region combines Nizami legacy
+            with technological advancement and traditional rural life.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Hyderabad (Capital), Warangal, Nizamabad, Karimnagar, Khammam</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Telugu, Urdu</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Information technology, pharmaceuticals, biotechnology, cinema, agriculture, mining</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-monument"></i>
+                <h5>Charminar</h5>
+                <p>Iconic 16th-century monument symbolizing Hyderabad with bustling bazaars surrounding it</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-gem"></i>
+                <h5>Golconda Fort</h5>
+                <p>Medieval fort known for its acoustics, diamond mining history, and impressive architecture</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-gopuram"></i>
+                <h5>Ramappa Temple</h5>
+                <p>UNESCO World Heritage temple known for floating bricks and intricate carvings</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Hussain Sagar Lake</h5>
+                <p>Heart-shaped lake featuring a massive Buddha statue and recreational facilities</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="andhra">
+      <h3>Andhra Pradesh: The Rice Bowl of India</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Stretching along the southeastern coast of India, Andhra Pradesh combines agricultural abundance with
+            ancient Buddhist heritage and Hindu pilgrimage sites. The state is known for its spicy cuisine, classical
+            dance forms, and handloom traditions.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Amaravati (Planned Capital), Visakhapatnam, Vijayawada, Tirupati, Rajahmundry, Kakinada</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Telugu</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, aquaculture, pharmaceuticals, petroleum refining, shipbuilding, tourism</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-gopuram"></i>
+                <h5>Tirupati Balaji Temple</h5>
+                <p>One of the world's most visited religious sites dedicated to Lord Venkateshwara</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-dharmachakra"></i>
+                <h5>Amaravati</h5>
+                <p>Ancient Buddhist site that was once the capital of the Satavahana dynasty</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-umbrella-beach"></i>
+                <h5>Visakhapatnam</h5>
+                <p>Major port city with beautiful beaches, hills, and naval heritage</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Araku Valley</h5>
+                <p>Picturesque tribal region known for coffee plantations and biodiversity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Andhra Pradesh coastline">
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Cultural Heritage of South India</h3>
+      <div class="culture-section">
+        <div class="culture-category">
+          <i class="fas fa-music"></i>
+          <h4>Music & Dance</h4>
+          <p>South India's classical traditions include Carnatic music, Bharatanatyam, Kuchipudi, Kathakali, and
+            Mohiniyattam. These ancient art forms continue to thrive through guru-shishya tradition and formal
+            institutions. Modern expressions include Tamil film music and Kerala's fusion sounds.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-palette"></i>
+          <h4>Arts & Crafts</h4>
+          <p>Traditional crafts flourish across South India, including Tanjore paintings, Mysore silk, Aranmula mirrors,
+            Kondapalli toys, Bidriware, Kalamkari textiles, and Chennapatna wooden toys. These represent centuries-old
+            techniques that have adapted to contemporary markets.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-landmark"></i>
+          <h4>Architecture</h4>
+          <p>The architectural landscape includes Dravidian temple complexes with towering gopurams, Indo-Islamic
+            structures like Hyderabad's Charminar, European colonial buildings in Chennai and Pondicherry, and
+            contemporary works like Lotus Temple. Each style reflects historical influences on the region.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-utensils"></i>
+          <h4>Cuisine</h4>
+          <p>South Indian cuisine features rice-based dishes, coconut-infused curries, vegetarian traditions, and
+            distinctive regional specialties like Kerala's seafood, Hyderabadi biryani, Chettinad cuisine, Karnataka's
+            Bisi Bele Bath, and Andhra's spicy preparations.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Festivals of South India</h3>
+      <div class="festivals-section">
+        <div class="festival-grid">
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Pongal celebration">
+            <h4>Pongal</h4>
+            <p>The four-day harvest festival celebrated across Tamil Nadu with rice boiling ceremonies, cattle worship,
+              and family gatherings.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Onam celebration">
+            <h4>Onam</h4>
+            <p>Kerala's ten-day harvest festival featuring flower carpets (pookalam), boat races, feasts, and cultural
+              performances.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Mysore Dasara">
+            <h4>Mysore Dasara</h4>
+            <p>Karnataka's royal festival with illuminated palace, processions, and cultural celebrations over ten days.
+            </p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Thrissur Pooram">
+            <h4>Thrissur Pooram</h4>
+            <p>Kerala's spectacular temple festival featuring caparisoned elephants, percussion ensembles, and parasol
+              displays.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Spiritual & Religious Significance</h3>
+      <div class="spiritual-section">
+        <img src="/api/placeholder/450/300" alt="South Indian religious sites">
+        <div class="spiritual-info">
+          <p>South India is a cradle of spiritual traditions with sacred sites that continue to attract pilgrims and
+            seekers from around the world.</p>
+          <div class="spiritual-places">
+            <div class="spiritual-category">
+              <h4>Hinduism</h4>
+              <p>South India contains some of Hinduism's most sacred sites, including Tirupati Balaji Temple (world's
+                richest temple), Meenakshi Temple in Madurai, Ramanathaswamy Temple in Rameswaram, and Chidambaram
+                Nataraja Temple, each representing different facets of Hindu spiritual tradition.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Buddhism</h4>
+              <p>Ancient Buddhist centers like Amaravati and Nagarjunakonda in Andhra Pradesh preserve the legacy of
+                early Buddhism in South India, which once flourished under royal patronage before declining in medieval
+                times.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Jainism</h4>
+              <p>Sites like Shravanabelagola in Karnataka with its monolithic Gommateshwara statue and Chandragiri hills
+                represent the significant Jain influence in the region's religious landscape.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Islam & Christianity</h4>
+              <p>The Nagore Dargah in Tamil Nadu, Hyderabad's Mecca Masjid, St. Thomas Mount in Chennai, and Syrian
+                Christian churches of Kerala demonstrate the diverse religious heritage that has existed alongside Hindu
+                traditions for centuries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Natural Wonders</h3>
+      <div class="nature-section">
+        <div class="nature-grid">
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Western Ghats">
+            <h4>Western Ghats</h4>
+            <p>UNESCO World Heritage biodiversity hotspot stretching along the western edge of peninsular India,
+              featuring pristine forests, endemic species, and spectacular waterfalls.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Backwaters">
+            <h4>Kerala Backwaters</h4>
+            <p>Network of interconnected canals, rivers, lakes and lagoons parallel to the Arabian Sea coast, creating a
+              unique ecosystem and way of life for coastal communities.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Eastern Ghats">
+            <h4>Eastern Ghats</h4>
+            <p>Discontinuous range of mountains along India's eastern coast through Tamil Nadu, Andhra Pradesh, and
+              Odisha, creating diverse habitats and watersheds.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Coastline">
+            <h4>Coromandel Coast</h4>
+            <p>Southeastern coastal plain from Tamil Nadu to southern Andhra Pradesh facing the Bay of Bengal, with
+              historic ports, beaches, and mangrove ecosystems.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Modern South India</h3>
+      <div class="modern-section">
+        <img src="/api/placeholder/450/300" alt="Modern South Indian cities">
+        <div class="modern-info">
+          <p>While preserving its rich cultural heritage, South India has emerged as a progressive region driving
+            India's technological advancement, film industry, and global connectivity.</p>
+
+          <div class="modern-highlights">
+            <div class="modern-highlight">
+              <h4>Tech Hubs</h4>
+              <p>Bengaluru, Hyderabad, and Chennai form India's technology triangle, hosting IT giants, startups,
+                research centers, and a highly educated workforce that powers the country's digital revolution.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Film Industry</h4>
+              <p>South Indian cinema, particularly Tamil, Telugu, Malayalam, and Kannada film industries, produce
+                world-class movies with global reach, innovative storytelling, and technical excellence that rivals any
+                film industry worldwide.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Education</h4>
+              <p>South India boasts high literacy rates and premier educational institutions like IITs, IIMs, IISC, and
+                century-old universities that have created a knowledge ecosystem supporting innovation and research
+                across disciplines.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Healthcare</h4>
+              <p>The region has pioneered affordable healthcare models and medical tourism with world-class hospitals in
+                Chennai, Vellore, Bengaluru, and Hyderabad providing specialized treatments at a fraction of global
+                costs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Travel Information</h3>
+      <div class="travel-info">
+        <div class="travel-season">
+          <h4>Best Time to Visit</h4>
+          <div class="season-grid">
+            <div class="season">
+              <i class="fas fa-snowflake"></i>
+              <h5>Winter (Nov-Feb)</h5>
+              <p>Perfect season for exploring coastal areas, cities, and wildlife sanctuaries with pleasant temperatures
+              </p>
+            </div>
+
+            <div class="season">
+              <i class="fas fa-sun"></i>
+              <h5>Summer (Mar-May)</h5>
+              <p>Ideal for hill stations like Ooty, Kodaikanal, Munnar, and Coorg to escape the heat of the plains</p>
+            </div>
+
+            <div class="season">
+              <i class="fas fa-cloud-rain"></i>
+              <h5>Monsoon (Jun-Oct)</h5>
+              <p>Best time to experience Kerala's lush greenery, Ayurvedic treatments, and the spectacle of Western
+                Ghats waterfalls</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="travel-tips">
+          <h4>Travel Tips</h4>
+          <ul>
+            <li><i class="fas fa-road"></i> <span>Combine heritage sites, natural landscapes, and urban experiences for
+                a well-rounded South Indian journey</span></li>
+            <li><i class="fas fa-tshirt"></i> <span>Pack light cotton clothes for coastal areas, warmer layers for hill
+                stations, and modest attire for temple visits</span></li>
+            <li><i class="fas fa-utensils"></i> <span>Try regional specialties like Hyderabadi biryani, Chettinad
+                cuisine, Kerala seafood, Karnataka's Bisi Bele Bath, and Andhra spicy dishes</span></li>
+            <li><i class="fas fa-shopping-bag"></i> <span>Shop for regional handicrafts - Kanchipuram silk, Thanjavur
+                paintings, Kerala coir products, and Bidriware</span></li>
+            <li><i class="fas fa-map-marked"></i> <span>Consider cultural sensitivity when visiting ancient temples and
+                traditional communities</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Explore Further</h3>
+      <div class="related-topics">
+        <a href="north_india.html" class="related-topic">
+          <i class="fas fa-compass"></i>
+          <h4>North India</h4>
+          <p>Discover the Indo-Aryan culture and majestic landscapes of India's northern region</p>
+        </a>
+
+        <a href="ancient.html" class="related-topic">
+          <i class="fas fa-landmark"></i>
+          <h4>Ancient History</h4>
+          <p>Explore the Dravidian civilizations that flourished in South India</p>
+        </a>
+
+        <a href="religion.html" class="related-topic">
+          <i class="fas fa-om"></i>
+          <h4>Culture & Religion</h4>
+          <p>Learn about the distinctive spiritual traditions of South India</p>
+        </a>
+
+        <a href="Cuisine.html" class="related-topic">
+          <i class="fas fa-utensils"></i>
+          <h4>South Indian Cuisine</h4>
+          <p>Savor the unique flavors of South India's diverse culinary traditions</p>
+        </a>
+      </div>
+    </div>
+  </main>
+  <div class="back-to-top" id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-about">
+        <h4>About the Project</h4>
+        <p>This website aims to showcase the diverse culture, history, and heritage of India. It serves as a
+          comprehensive resource for anyone interested in learning about the various aspects of Indian
+          civilization.</p>
+      </div>
+
+      <div class="team-members">
+        <h4>Team Members</h4>
+        <ul>
+          <li>Mitthu Kumar(Mayank)-Team Leader</li>
+          <li>Adarsh Kumar Singh</li>
+          <li>Prince Ojha</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>© 2025 M K Shahi. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>North India - India : That is Bharat</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- Header with Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./image/logo.png" alt="Bharat Map">
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul id="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">ABOUT</button>
+          <div class="dropdown-content">
+            <a href="geo.html">Geography & People</a>
+            <a href="economy.html">Economy</a>
+            <a href="religion.html">Culture and Religion</a>
+            <a href="gov_poli.html">Government and Politics</a>
+            <a href="language.html">Language</a>
+            <a href="education.html">Education</a>
+            <a href="science.html">Science and Technology</a>
+            <a href="environment.html">Wildlife and Environment</a>
+            <a href="Cuisine.html">Cuisine</a>
+            <a href="art.html">Arts and Entertainment</a>
+            <a href="Sports.html">Sports</a>
+            <a href="social.html">Social Challenges</a>
+            <a href="tourism.html">Tourism</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">ICONS</button>
+          <div class="dropdown-content">
+            <a href="fighter.html">Freedom Fighters</a>
+            <a href="king.html">Ruling Entities</a>
+            <a href="president.html">President</a>
+            <a href="pm.html">Prime Minister</a>
+            <a href="hero.html">Notable Indians</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">HISTORY</button>
+          <div class="dropdown-content">
+            <a href="ancient.html">Ancient Period</a>
+            <a href="medival.html">Medieval Period</a>
+            <a href="modern.html">Modern Period</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">REGION</button>
+          <div class="dropdown-content">
+            <a href="north_india.html">North India</a>
+            <a href="south_india.html">South India</a>
+            <a href="west_india.html">West India</a>
+            <a href="east_india.html">East India</a>
+            <a href="norteast_india.html">Northeast India</a>
+            <a href="central_india.html">Central India</a>
+          </div>
+        </li>
+        <li><a href="contect.html">CONTACT</a></li>
+
+        <div class="search">
+          <input type="text" id="search-bar" placeholder="Search...">
+          <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <button class="subscribe-btn"><a href="subscribe.html">SUBSCRIBE</a></button>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero-section">
+      <div class="hero-overlay"
+        style="background: url('https://media.licdn.com/dms/image/v2/C4D12AQH0-AI6pizudw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520199893810?e=2147483647&v=beta&t=FEqAHG5V2TTZpLBbVasqbYjE7o0eM_1BndJ0nFIVzeQ') no-repeat center center; background-size: cover;">
+        <h2>North India</h2>
+        <p>Explore the cultural heartland of India - from the majestic Himalayas to the historic plains of the Ganges
+        </p>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h1>North India: The Land of Diversity and Heritage</h1>
+      <p>North India encompasses the mountainous territories of the Himalayas, the fertile plains of the Ganges, and the
+        arid regions of the Thar Desert. This culturally rich region has been the cradle of numerous civilizations,
+        kingdoms, and empires that have shaped the history of the Indian subcontinent. From ancient Vedic settlements to
+        the grand Mughal Empire, and from spiritual sites to modern metropolises, North India represents a fascinating
+        mosaic of India's cultural and historical legacy.</p>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>States of North India</h3>
+      <div class="states-grid">
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Himachal Pradesh landscape">
+          <h4>Himachal Pradesh</h4>
+          <p>Known as "Dev Bhoomi" or Land of Gods, Himachal Pradesh is nestled in the western Himalayas with stunning
+            mountain landscapes, apple orchards, and adventure tourism opportunities. The state preserves traditional
+            Pahari culture while embracing sustainable development.</p>
+          <a href="#himachal" class="state-link">Explore Himachal Pradesh <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Punjab fields">
+          <h4>Punjab</h4>
+          <p>The land of five rivers is known for its agricultural prosperity, vibrant Punjabi culture, Sikh heritage,
+            and spirited people. Punjab's contributions to Indian cuisine, music, and military traditions have enriched
+            the nation's cultural landscape.</p>
+          <a href="#punjab" class="state-link">Explore Punjab <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Uttarakhand mountains">
+          <h4>Uttarakhand</h4>
+          <p>Called the "Abode of Gods," Uttarakhand features sacred pilgrimage sites, pristine forests, and the source
+            of the Ganges. The state balances spiritual significance with ecological conservation and adventure tourism
+            in its spectacular mountain setting.</p>
+          <a href="#uttarakhand" class="state-link">Explore Uttarakhand <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Uttar Pradesh monuments">
+          <h4>Uttar Pradesh</h4>
+          <p>India's most populous state is a repository of ancient civilization along the Ganges river with cities like
+            Varanasi and Ayodhya. UP encompasses the cultural heartland of India with the Taj Mahal, sacred cities, and
+            the historical legacy of multiple empires.</p>
+          <a href="#up" class="state-link">Explore Uttar Pradesh <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Haryana landscape">
+          <h4>Haryana</h4>
+          <p>The birthplace of the Mahabharata epic combines agricultural strength with industrial growth around Delhi.
+            Haryana preserves its martial traditions, folk culture, and rural heritage while emerging as an education
+            and business hub.</p>
+          <a href="#haryana" class="state-link">Explore Haryana <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Rajasthan desert">
+          <h4>Rajasthan</h4>
+          <p>The "Land of Kings" showcases India's royal heritage with magnificent forts, palaces, and vibrant cultural
+            traditions. Rajasthan's colorful festivals, handicrafts, and desert landscapes create an immersive cultural
+            experience that attracts visitors worldwide.</p>
+          <a href="#rajasthan" class="state-link">Explore Rajasthan <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Jammu and Kashmir landscape">
+          <h4>Jammu & Kashmir</h4>
+          <p>Often described as "Paradise on Earth," J&K features stunning valleys, lakes, and mountain landscapes
+            combined with unique cultural traditions. The region blends multiple cultural influences across its diverse
+            topography and communities.</p>
+          <a href="#jk" class="state-link">Explore Jammu & Kashmir <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="himachal">
+      <h3>Himachal Pradesh: The Abode of Snow</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Nestled in the western Himalayas, Himachal Pradesh offers breathtaking mountain landscapes, pristine
+            forests, and a rich cultural heritage that blends Hindu traditions with Buddhist influences, particularly in
+            regions bordering Tibet.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Shimla (Capital), Dharamshala, Manali, Kullu, Dalhousie</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Hindi, Pahari dialects (Kangri, Kulvi, Mandeali), Kinnauri</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Tourism, horticulture (apples, stone fruits), hydroelectric power, handicrafts, pharmaceutical
+                manufacturing</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Shimla</h5>
+                <p>Former summer capital of British India known for colonial architecture and Mall Road</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-om"></i>
+                <h5>Dharamshala & McLeodganj</h5>
+                <p>Home to the Dalai Lama and Tibetan government-in-exile with strong Buddhist culture</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-hiking"></i>
+                <h5>Manali & Rohtang Pass</h5>
+                <p>Adventure tourism hub with skiing, trekking, and stunning mountain vistas</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Spiti Valley</h5>
+                <p>Remote high-altitude desert landscape with ancient monasteries and unique ecology</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Himachal Pradesh landscape">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="punjab">
+      <h3>Punjab: The Land of Five Rivers</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Punjab Golden Temple">
+        <div class="state-info">
+          <p>Punjab, meaning "land of five rivers," is known for its agricultural prosperity, vibrant culture, and
+            significant role in India's history. The state is the birthplace of Sikhism and has been a cultural
+            crossroads throughout history.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Chandigarh (shared with Haryana), Amritsar, Ludhiana, Jalandhar, Patiala</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Punjabi, Hindi</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture (wheat, rice, dairy), food processing, textiles, sports goods manufacturing, services</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-place-of-worship"></i>
+                <h5>Golden Temple, Amritsar</h5>
+                <p>Holiest shrine of Sikhism known for its golden architecture and langar tradition</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-monument"></i>
+                <h5>Wagah Border</h5>
+                <p>Famous for its elaborate border-closing ceremony between India and Pakistan</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-city"></i>
+                <h5>Chandigarh</h5>
+                <p>Planned city designed by Le Corbusier with modernist architecture and gardens</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-fort-awesome"></i>
+                <h5>Patiala</h5>
+                <p>Former princely state known for its heritage buildings and Patiala peg</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="uttarakhand">
+      <h3>Uttarakhand: Dev Bhoomi (Land of Gods)</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Uttarakhand, carved out of Uttar Pradesh in 2000, is known for its natural beauty, spiritual significance,
+            and biodiversity. The state houses the sources of major rivers including the Ganges and hosts some of
+            Hinduism's most sacred sites.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Dehradun (Capital), Haridwar, Rishikesh, Nainital, Mussoorie</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Hindi, Garhwali, Kumaoni</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Tourism, pilgrimage, hydropower, agriculture, pharmaceuticals, education</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-praying-hands"></i>
+                <h5>Char Dham</h5>
+                <p>Four sacred Hindu pilgrimage sites: Yamunotri, Gangotri, Kedarnath, and Badrinath</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-spa"></i>
+                <h5>Rishikesh</h5>
+                <p>Yoga capital of the world situated on the banks of the Ganges</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Haridwar</h5>
+                <p>Ancient holy city known for Kumbh Mela and evening Ganga Aarti</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Valley of Flowers</h5>
+                <p>UNESCO World Heritage Site with diverse alpine flowers and stunning landscapes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Uttarakhand mountains and temples">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="up">
+      <h3>Uttar Pradesh: The Heartland of India</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Taj Mahal, Uttar Pradesh">
+        <div class="state-info">
+          <p>India's most populous state, Uttar Pradesh has been the center of North Indian culture, politics, and
+            religion for millennia. The Gangetic plain region has witnessed the rise and fall of numerous empires and
+            has been central to India's spiritual traditions.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Lucknow (Capital), Varanasi, Agra, Prayagraj (Allahabad), Kanpur, Ayodhya, Mathura</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Hindi, Urdu, Awadhi, Bhojpuri, Braj Bhasha</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, food processing, handicrafts, tourism, information technology, manufacturing</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-landmark"></i>
+                <h5>Taj Mahal, Agra</h5>
+                <p>UNESCO World Heritage monument of love and India's most recognizable landmark</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-pray"></i>
+                <h5>Varanasi</h5>
+                <p>One of the world's oldest continuously inhabited cities and Hinduism's holiest site</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-place-of-worship"></i>
+                <h5>Ayodhya</h5>
+                <p>Birthplace of Lord Rama with the recently constructed Ram Mandir</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-gopuram"></i>
+                <h5>Mathura-Vrindavan</h5>
+                <p>Birthplace of Lord Krishna and center of Krishna-related devotional traditions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="haryana">
+      <h3>Haryana: The Land of Plough and Valor</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Created in 1966 after the reorganization of Punjab, Haryana combines agricultural prosperity with rapid
+            industrialization. The state has historic significance as the setting for parts of the Mahabharata epic and
+            is known for its martial traditions.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Chandigarh (shared with Punjab), Gurugram (Gurgaon), Faridabad, Panipat, Kurukshetra</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Hindi, Haryanvi</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, automotive manufacturing, IT/ITES, real estate, services, sports</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-gopuram"></i>
+                <h5>Kurukshetra</h5>
+                <p>Historical battlefield of the Mahabharata with various temples and tanks</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-building"></i>
+                <h5>Gurugram</h5>
+                <p>Modern business hub with skyscrapers, malls, and multinational corporations</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Morni Hills</h5>
+                <p>Hill station area offering a respite from the plains with lakes and hiking trails</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Sultanpur Bird Sanctuary</h5>
+                <p>Wetland habitat for migratory birds with over 100 species during winter</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Haryana landscape and culture">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="rajasthan">
+      <h3>Rajasthan: The Land of Kings</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Rajasthan fort and desert">
+        <div class="state-info">
+          <p>India's largest state by area, Rajasthan showcases the country's royal heritage with magnificent forts,
+            palaces, and vibrant cultural traditions. The state encompasses much of the Thar Desert and has a rich
+            history of Rajput kingdoms.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Jaipur (Capital), Jodhpur, Udaipur, Jaisalmer, Bikaner, Pushkar, Ajmer</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Hindi, Rajasthani dialects (Marwari, Mewari, Dhundhari)</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Tourism, handicrafts, textiles, agriculture, mining, renewable energy</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-city"></i>
+                <h5>Jaipur</h5>
+                <p>UNESCO World Heritage "Pink City" with Amber Fort, Hawa Mahal, and City Palace</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-fort-awesome"></i>
+                <h5>Udaipur</h5>
+                <p>"City of Lakes" featuring the romantic Lake Palace and City Palace complex</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-dungeon"></i>
+                <h5>Jodhpur</h5>
+                <p>"Blue City" dominated by the impressive Mehrangarh Fort</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-dharmachakra"></i>
+                <h5>Jaisalmer</h5>
+                <p>"Golden City" with living fort rising from the Thar Desert</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="jk">
+      <h3>Jammu & Kashmir: Paradise on Earth</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Located in the northernmost part of India, Jammu & Kashmir is renowned for its breathtaking landscapes
+            including snow-capped mountains, verdant valleys, and serene lakes. The region's culture reflects influences
+            from Central Asia, Tibet, and the Indian subcontinent.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Srinagar (Summer), Jammu (Winter), Leh, Gulmarg, Pahalgam</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Kashmiri, Dogri, Ladakhi, Hindi, Urdu</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Tourism, handicrafts (carpets, shawls), agriculture, horticulture (apples, saffron), hydroelectric
+                power</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Dal Lake</h5>
+                <p>Srinagar's jewel known for houseboats and floating gardens</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Gulmarg</h5>
+                <p>Premier ski resort with one of the world's highest gondolas</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-hiking"></i>
+                <h5>Pahalgam</h5>
+                <p>Valley of shepherds with stunning alpine scenery and trekking routes</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-om"></i>
+                <h5>Vaishno Devi</h5>
+                <p>Major pilgrimage destination in the Trikuta Mountains</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Kashmir Valley">
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Cultural Heritage of North India</h3>
+      <div class="culture-section">
+        <div class="culture-category">
+          <i class="fas fa-music"></i>
+          <h4>Music & Dance</h4>
+          <p>North India's classical traditions include Hindustani music, kathak dance, and various folk styles like
+            Bhangra (Punjab), Ghoomar (Rajasthan), and Rouf (Kashmir). The region has given birth to legendary musicians
+            like Pandit Ravi Shankar and Ustad Zakir Hussain.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-palette"></i>
+          <h4>Arts & Crafts</h4>
+          <p>Traditional handicrafts flourish across North India, from Pashmina shawls of Kashmir to blue pottery of
+            Jaipur, Phulkari embroidery of Punjab, and Chamba rumal of Himachal. These crafts represent centuries-old
+            techniques passed through generations.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-landmark"></i>
+          <h4>Architecture</h4>
+          <p>The architectural landscape includes Hindu temples, Islamic monuments, Sikh gurdwaras, and colonial
+            buildings that showcase diverse influences. Styles range from Nagara temple architecture to Indo-Islamic
+            synthesis exemplified by the Taj Mahal.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-utensils"></i>
+          <h4>Cuisine</h4>
+          <p>North Indian cuisine features tandoori cooking, rich curries, diverse breads, and distinctive regional
+            specialties like Kashmiri Wazwan, Punjabi butter chicken, Lucknowi kebabs, and Rajasthani dal-bati-churma.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Festivals of North India</h3>
+      <div class="festivals-section">
+        <div class="festival-grid">
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Diwali celebration">
+            <h4>Diwali</h4>
+            <p>The festival of lights is celebrated with particular enthusiasm across North India with illuminated
+              homes, fireworks, and family gatherings.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Holi celebration">
+            <h4>Holi</h4>
+            <p>The festival of colors reaches its zenith in places like Mathura and Vrindavan with traditional
+              celebrations lasting several days.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Baisakhi celebration">
+            <h4>Baisakhi</h4>
+            <p>The harvest festival and Sikh new year marked with bhangra dancing, processions, and community meals in
+              Punjab.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Pushkar Camel Fair">
+            <h4>Pushkar Mela</h4>
+            <p>One of the world's largest camel fairs combines livestock trading with cultural performances and
+              religious rituals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Spiritual & Religious Significance</h3>
+      <div class="spiritual-section">
+        <img src="/api/placeholder/450/300" alt="North Indian religious sites">
+        <div class="spiritual-info">
+          <p>North India holds profound spiritual significance across multiple faiths and contains some of the world's
+            most important religious sites and pilgrimage destinations.</p>
+          <div class="spiritual-places">
+            <div class="spiritual-category">
+              <h4>Hinduism</h4>
+              <p>The sacred cities of Varanasi, Haridwar, and Rishikesh along the Ganges; Mathura-Vrindavan as Krishna's
+                birthplace; the Char Dham pilgrimage circuit; and countless temples across the region make North India a
+                central hub of Hindu spiritual life.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Sikhism</h4>
+              <p>Punjab is the heartland of Sikhism with the Golden Temple in Amritsar as its most sacred shrine. Other
+                important gurdwaras include Anandpur Sahib, Fatehgarh Sahib, and Damdama Sahib that commemorate key
+                events in Sikh history.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Buddhism</h4>
+              <p>Sarnath near Varanasi where Buddha gave his first sermon; Kushinagar where he attained parinirvana; and
+                Tibetan Buddhist centers in Dharamshala, Spiti Valley, and Ladakh continue ancient Buddhist traditions.
+              </p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Islam</h4>
+              <p>The Jama Masjid in Delhi, Dargah Sharif in Ajmer, mosques in Lucknow, and Islamic architectural
+                heritage across the region reflect the significant Islamic cultural influence in North India.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Natural Wonders</h3>
+      <div class="nature-section">
+        <div class="nature-grid">
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Himalayan peaks">
+            <h4>Himalayan Ranges</h4>
+            <p>The world's youngest and highest mountain range forms North India's spectacular northern boundary,
+              offering diverse ecosystems from subtropical forests to alpine meadows and glaciers.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Ganges River">
+            <h4>Ganges Basin</h4>
+            <p>The life-giving river and its tributaries create a fertile alluvial plain that has nurtured
+              civilizations for millennia and remains the agricultural heartland of India.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Thar Desert">
+            <h4>Thar Desert</h4>
+            <p>The vast arid expanse in Rajasthan features shifting sand dunes, oases, and unique desert ecology that
+              has shaped the region's distinctive culture and way of life.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Valley of Flowers">
+            <h4>Valley of Flowers</h4>
+            <p>This UNESCO World Heritage site in Uttarakhand showcases an extraordinary display of alpine flowers
+              against a backdrop of snow-capped mountains and glaciers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Modern North India</h3>
+      <div class="modern-section">
+        <img src="/api/placeholder/450/300" alt="Modern North Indian cities">
+        <div class="modern-info">
+          <p>While preserving its rich cultural heritage, North India is rapidly modernizing with expanding urban
+            centers, educational institutions, and economic opportunities that are transforming the region.</p>
+
+          <div class="modern-highlights">
+            <div class="modern-highlight">
+              <h4>Urban Development</h4>
+              <p>Cities like Delhi NCR, Chandigarh, Lucknow, and Jaipur are growing as economic and educational hubs
+                with modern infrastructure, metro systems, and smart city initiatives.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Industrial Growth</h4>
+              <p>Industrial corridors, manufacturing zones, and technology parks are creating employment opportunities
+                beyond traditional agriculture, particularly in states like Haryana, Punjab, and Uttar Pradesh.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Connectivity</h4>
+              <p>Expanding highway networks, high-speed rail corridors, and new airports are improving connectivity
+                within North India and to the rest of the country, boosting tourism and commerce.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Education & Research</h4>
+              <p>Premier institutions like IITs, IIMs, AIIMS, and central universities are fostering innovation and
+                human resource development throughout the region.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Travel Information</h3>
+      <div class="travel-info">
+        <div class="travel-season">
+          <h4>Best Time to Visit</h4>
+          <div class="season-grid">
+            <div class="season">
+              <i class="fas fa-snowflake"></i>
+              <h5>Winter (Oct-Feb)</h5>
+              <p>Ideal for exploring plains of Rajasthan, UP, Punjab, and Haryana with pleasant temperatures and clear
+                skies</p>
+            </div>
+
+            <div class="season">
+              <i class="fas fa-sun"></i>
+              <h5>Summer (Mar-Jun)</h5>
+              <p>Perfect for hill stations like Shimla, Manali, and Kashmir to escape the heat of the plains</p>
+            </div>
+
+            <div class="season">
+              <i class="fas fa-cloud-rain"></i>
+              <h5>Monsoon (Jul-Sep)</h5>
+              <p>Brings verdant landscapes to the hills but can disrupt travel with landslides in mountainous areas
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="travel-tips">
+          <h4>Travel Tips</h4>
+          <ul>
+            <li><i class="fas fa-road"></i> <span>Plan a mix of urban centers, heritage sites, and natural landscapes
+                for a well-rounded experience</span></li>
+            <li><i class="fas fa-tshirt"></i> <span>Pack according to season and region - light clothes for plains,
+                warm layers for mountains</span></li>
+            <li><i class="fas fa-utensils"></i> <span>Try regional cuisine specialties like Kashmiri Wazwan, Punjabi
+                food, Rajasthani thali, and Awadhi dishes</span></li>
+            <li><i class="fas fa-shopping-bag"></i> <span>Shop for regional handicrafts - Pashmina shawls, blue
+                pottery, Phulkari embroidery, and Chamba rumal</span></li>
+            <li><i class="fas fa-map-marked"></i> <span>Consider cultural sensitivity when visiting religious sites
+                across different faiths</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Explore Further</h3>
+      <div class="related-topics">
+        <a href="south_india.html" class="related-topic">
+          <i class="fas fa-compass"></i>
+          <h4>South India</h4>
+          <p>Discover the Dravidian culture and tropical landscapes of India's peninsula</p>
+        </a>
+
+        <a href="ancient.html" class="related-topic">
+          <i class="fas fa-landmark"></i>
+          <h4>Ancient History</h4>
+          <p>Explore the civilizations that flourished in North India</p>
+        </a>
+
+        <a href="religion.html" class="related-topic">
+          <i class="fas fa-om"></i>
+          <h4>Culture & Religion</h4>
+          <p>Learn about the spiritual traditions that originated in the region</p>
+        </a>
+
+        <a href="Cuisine.html" class="related-topic">
+          <i class="fas fa-utensils"></i>
+          <h4>North Indian Cuisine</h4>
+          <p>Savor the flavors of North India's diverse culinary traditions</p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-about">
+        <h4>About the Project</h4>
+        <p>This website aims to showcase the diverse culture, history, and heritage of India. It serves as a
+          comprehensive resource for anyone interested in learning about the various aspects of Indian
+          civilization.</p>
+      </div>
+
+      <div class="team-members">
+        <h4>Team Members</h4>
+        <ul>
+          <li>Mitthu Kumar(Mayank)-Team Leader</li>
+          <li>Adarsh Kumar Singh</li>
+          <li>Prince Ojha</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>© 2025 M K Shahi. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

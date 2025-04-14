@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Northeast India - India : That is Bharat</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- Main Logo Section -->
+  <div class="main_logo">
+    <img src="image/IND.png" alt="India Logo">
+  </div>
+
+  <!-- Header with Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./image/logo.png" alt="Bharat Map">
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul id="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">ABOUT</button>
+          <div class="dropdown-content">
+            <a href="geo.html">Geography & People</a>
+            <a href="economy.html">Economy</a>
+            <a href="religion.html">Culture and Religion</a>
+            <a href="gov_poli.html">Government and Politics</a>
+            <a href="language.html">Language</a>
+            <a href="education.html">Education</a>
+            <a href="science.html">Science and Technology</a>
+            <a href="environment.html">Wildlife and Environment</a>
+            <a href="Cuisine.html">Cuisine</a>
+            <a href="art.html">Arts and Entertainment</a>
+            <a href="Sports.html">Sports</a>
+            <a href="social.html">Social Challenges</a>
+            <a href="tourism.html">Tourism</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">ICONS</button>
+          <div class="dropdown-content">
+            <a href="fighter.html">Freedom Fighters</a>
+            <a href="king.html">Ruling Entities</a>
+            <a href="president.html">President</a>
+            <a href="pm.html">Prime Minister</a>
+            <a href="hero.html">Notable Indians</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">HISTORY</button>
+          <div class="dropdown-content">
+            <a href="ancient.html">Ancient Period</a>
+            <a href="medival.html">Medieval Period</a>
+            <a href="modern.html">Modern Period</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">REGION</button>
+          <div class="dropdown-content">
+            <a href="north_india.html">North India</a>
+            <a href="south_india.html">South India</a>
+            <a href="west_india.html">West India</a>
+            <a href="east_india.html">East India</a>
+            <a href="norteast_india.html">Northeast India</a>
+            <a href="central_india.html">Central India</a>
+          </div>
+        </li>
+        <li><a href="contect.html">CONTACT</a></li>
+
+        <div class="search">
+          <input type="text" id="search-bar" placeholder="Search...">
+          <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <button class="subscribe-btn"><a href="subscribe.html">SUBSCRIBE</a></button>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero-section" style="background-image: url('/api/placeholder/1200/500');">
+      <div class="hero-overlay"
+        style="background: url('https://3.imimg.com/data3/VR/TU/MY-8013408/north-east-packages.jpg') no-repeat center center; background-size: cover;">
+        <h2>Northeast India</h2>
+        <p>Experience the enchanting diversity of India's Seven Sisters - a land of pristine nature, vibrant cultures,
+          and unique traditions
+        </p>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h1>Northeast India: The Land of Seven Sisters and Beyond</h1>
+      <p>Northeast India comprises eight states - often called the "Seven Sisters" (Arunachal Pradesh, Assam, Manipur,
+        Meghalaya, Mizoram, Nagaland, and Tripura) plus the "Brother" (Sikkim). Connected to the rest of India by a
+        narrow corridor called the "Chicken's Neck," this region is a treasure trove of cultural diversity, ecological
+        richness, and breathtaking landscapes. With over 220 ethnic groups and countless languages, Northeast India
+        represents one of the most culturally diverse regions in the entire Asian continent, offering unique traditions,
+        cuisines, and artistic expressions shaped by geographical isolation and historical influences from Southeast
+        Asia, Tibet, and the Indian subcontinent.</p>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>States of Northeast India</h3>
+      <div class="states-grid">
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Assam landscape">
+          <h4>Assam</h4>
+          <p>Known as the gateway to the Northeast, Assam is famous for its lush tea gardens, mighty Brahmaputra River,
+            and the endangered one-horned rhinoceros. The state serves as the cultural and economic hub of the
+            northeastern region with its rich Ahom heritage and Bihu celebrations.</p>
+          <a href="#assam" class="state-link">Explore Assam <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Arunachal Pradesh mountains">
+          <h4>Arunachal Pradesh</h4>
+          <p>India's easternmost state welcomes the country's first sunrise with stunning Himalayan landscapes, Buddhist
+            monasteries, and diverse tribal cultures. Arunachal Pradesh, meaning "Land of the Dawn-Lit Mountains,"
+            preserves some of India's most pristine natural habitats and traditional lifestyles.</p>
+          <a href="#arunachal" class="state-link">Explore Arunachal Pradesh <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Meghalaya waterfalls">
+          <h4>Meghalaya</h4>
+          <p>The "Abode of Clouds" features some of the world's wettest places, living root bridges, and magnificent
+            waterfalls. Meghalaya's matrilineal Khasi, Jaintia, and Garo societies offer unique cultural perspectives in
+            a land where mists embrace rolling hills and dense forests.</p>
+          <a href="#meghalaya" class="state-link">Explore Meghalaya <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Manipur lake">
+          <h4>Manipur</h4>
+          <p>Known as the "Jewel of the Northeast," Manipur centers around the stunning Loktak Lake with its unique
+            floating islands. The birthplace of Manipuri classical dance and modern polo, the state blends rich cultural
+            traditions with breathtaking natural beauty.</p>
+          <a href="#manipur" class="state-link">Explore Manipur <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Mizoram landscape">
+          <h4>Mizoram</h4>
+          <p>The "Land of the Highlanders" offers spectacular blue mountains, bamboo forests, and a vibrant Mizo
+            culture. With some of India's highest literacy rates and a strong musical tradition, Mizoram balances modern
+            development with traditional Mizo values and pristine nature.</p>
+          <a href="#mizoram" class="state-link">Explore Mizoram <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Nagaland traditional festival">
+          <h4>Nagaland</h4>
+          <p>The "Land of Festivals" is home to 16 major tribes with distinct cultures, languages, and traditions.
+            Nagaland's Hornbill Festival showcases the state's remarkable cultural diversity, while its mountainous
+            terrain offers stunning vistas and unique biodiversity.</p>
+          <a href="#nagaland" class="state-link">Explore Nagaland <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Sikkim mountains">
+          <h4>Sikkim</h4>
+          <p>India's first fully organic state nestles in the Eastern Himalayas with breathtaking mountain landscapes
+            and Buddhist heritage. Home to the mighty Kanchenjunga, Sikkim blends Tibetan, Nepali, and indigenous
+            cultural influences in its monasteries, festivals, and cuisines.</p>
+          <a href="#sikkim" class="state-link">Explore Sikkim <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="state-item">
+          <img src="/api/placeholder/400/250" alt="Tripura palace">
+          <h4>Tripura</h4>
+          <p>Once a princely state, Tripura combines Bengali and indigenous tribal cultures with impressive royal
+            heritage and natural beauty. The state's archaeological sites, palaces, and diverse ethnic communities
+            reflect its unique history as a cultural crossroads.</p>
+          <a href="#tripura" class="state-link">Explore Tripura <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="assam">
+      <h3>Assam: Gateway to the Northeast</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Assam serves as the geographical and cultural gateway to Northeast India, defined by the mighty Brahmaputra
+            River that flows through its fertile valley. With a rich history dating back to the ancient kingdom of
+            Kamarupa and the medieval Ahom dynasty, the state blends indigenous traditions with influences from
+            surrounding regions.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Dispur (Capital), Guwahati, Jorhat, Dibrugarh, Silchar, Tezpur</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Assamese, Bengali, Bodo, Minor tribal languages</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Tea cultivation, petroleum, agriculture (rice), silk production, tourism</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-paw"></i>
+                <h5>Kaziranga National Park</h5>
+                <p>UNESCO World Heritage Site home to two-thirds of the world's one-horned rhinoceros population</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Majuli Island</h5>
+                <p>World's largest river island with unique Vaishnavite culture and Satras (monasteries)</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-leaf"></i>
+                <h5>Tea Gardens</h5>
+                <p>Sprawling estates producing some of the world's finest tea since the colonial era</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-place-of-worship"></i>
+                <h5>Kamakhya Temple</h5>
+                <p>Ancient Shakti pilgrimage site dedicated to the goddess of desire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Assam tea gardens and rhino">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="arunachal">
+      <h3>Arunachal Pradesh: Land of the Dawn-Lit Mountains</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Arunachal Pradesh mountains and monasteries">
+        <div class="state-info">
+          <p>India's easternmost state shares international borders with Bhutan, Myanmar, and Tibet (China). With 26
+            major tribes and over 100 sub-tribes, Arunachal Pradesh is one of India's most culturally diverse regions,
+            preserving ancient traditions in spectacular Himalayan landscapes.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Itanagar (Capital), Tawang, Ziro, Pasighat, Bomdila, Along</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Numerous tribal languages, Hindi, English as link languages</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, forestry, hydropower, handicrafts, tourism</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-om"></i>
+                <h5>Tawang Monastery</h5>
+                <p>Second largest Buddhist monastery in the world after Potala Palace in Tibet</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Sela Pass</h5>
+                <p>High-altitude mountain pass with breathtaking views and sacred lake</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-landmark"></i>
+                <h5>Ziro Valley</h5>
+                <p>UNESCO World Heritage Site candidate known for Apatani tribal culture and music festival</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Namdapha National Park</h5>
+                <p>India's third-largest national park with extraordinary biodiversity and four big cat species</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="meghalaya">
+      <h3>Meghalaya: Abode of Clouds</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Created in 1972, Meghalaya means "Abode of Clouds" in Sanskrit, referring to the perpetually cloudy and
+            rainy nature of its hills. The state is home to matrilineal societies of the Khasi, Jaintia, and Garo tribes
+            where property and family names pass through the female line.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Shillong (Capital), Cherrapunji, Mawsynram, Jowai, Tura</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Khasi, Garo, Jaintia, English (official)</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, forestry, tourism, mining, handicrafts</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-tree"></i>
+                <h5>Living Root Bridges</h5>
+                <p>Bio-engineering marvels created by training tree roots across rivers over centuries</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Nohkalikai Falls</h5>
+                <p>India's tallest plunge waterfall dropping 1,115 feet near Cherrapunji</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-cave"></i>
+                <h5>Mawsmai Cave</h5>
+                <p>Illuminated limestone cave system with impressive stalactite and stalagmite formations</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-cloud-rain"></i>
+                <h5>Mawsynram</h5>
+                <p>World's wettest place with average annual rainfall exceeding 467 inches</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Meghalaya living root bridge">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="manipur">
+      <h3>Manipur: The Jewel of the Northeast</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Loktak Lake and Manipuri dance">
+        <div class="state-info">
+          <p>Called "The Jewel of India" by Jawaharlal Nehru, Manipur features a unique oval-shaped valley surrounded by
+            blue hills and centered around the remarkable Loktak Lake. The state has contributed significantly to
+            India's cultural heritage through classical Manipuri dance and as the birthplace of modern polo.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Imphal (Capital), Thoubal, Churachandpur, Ukhrul, Chandel</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Manipuri (Meiteilon), Thadou, Tangkhul, other tribal languages</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, handicrafts, sericulture, bamboo industries, tourism</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Loktak Lake</h5>
+                <p>Largest freshwater lake in Northeast India with unique phumdis (floating islands)</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-leaf"></i>
+                <h5>Keibul Lamjao National Park</h5>
+                <p>World's only floating national park and home to endangered Sangai deer</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-monument"></i>
+                <h5>Kangla Fort</h5>
+                <p>Ancient palace complex that served as the seat of Manipuri kings</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-hiking"></i>
+                <h5>Dzüko Valley</h5>
+                <p>Spectacular valley famous for seasonal wildflowers and trekking opportunities</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="mizoram">
+      <h3>Mizoram: Land of the Highlanders</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>Forming India's southern-most frontier with Myanmar and Bangladesh, Mizoram means "Land of the
+            Highlanders." The state boasts one of India's highest literacy rates and is known for its strong community
+            spirit, beautiful bamboo crafts, and vibrant church culture influenced by its Christian heritage.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Aizawl (Capital), Lunglei, Champhai, Serchhip, Kolasib</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Mizo (official), English, minor Kuki-Chin languages</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture (jhum cultivation), bamboo products, handicrafts, services</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Phawngpui (Blue Mountain)</h5>
+                <p>Mizoram's highest peak offering panoramic views and diverse flora and fauna</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Tam Dil</h5>
+                <p>Heart-shaped lake surrounded by forests with local legends and recreation</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-tree"></i>
+                <h5>Murlen National Park</h5>
+                <p>Virgin forest often compared to the Amazon with rare wildlife and bird species</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-church"></i>
+                <h5>Solomon's Temple</h5>
+                <p>Massive contemporary religious structure reflecting Mizoram's Christian identity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Mizoram mountains and bamboo crafts">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="nagaland">
+      <h3>Nagaland: Land of Festivals</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Nagaland tribes and festivals">
+        <div class="state-info">
+          <p>Created in 1963, Nagaland is home to 16 major tribes and numerous sub-tribes, each with distinct languages,
+            customs, and traditional attire. The state's cultural richness is showcased during the annual Hornbill
+            Festival, while its mountainous terrain houses remarkable biodiversity and warrior traditions.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Kohima (Capital), Dimapur, Mokokchung, Wokha, Zunheboto</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>English (official), Nagamese (creole), 16+ tribal languages</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, handicrafts, tourism, forestry, services</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-drum"></i>
+                <h5>Hornbill Festival</h5>
+                <p>"Festival of Festivals" showcasing all tribes in a 10-day cultural extravaganza</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-monument"></i>
+                <h5>Kohima War Cemetery</h5>
+                <p>Memorial to soldiers who died in the Battle of Kohima during World War II</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Dzükou Valley</h5>
+                <p>Valley of flowers with rolling hills and seasonal blooms (shared with Manipur)</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-home"></i>
+                <h5>Khonoma Village</h5>
+                <p>Asia's first green village known for conservation efforts and traditional architecture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="sikkim">
+      <h3>Sikkim: Mystical Himalayan Kingdom</h3>
+      <div class="state-profile">
+        <div class="state-info">
+          <p>A former Buddhist kingdom that joined India in 1975, Sikkim is nestled in the Eastern Himalayas between
+            Nepal, Tibet, and Bhutan. The state pioneered organic farming in India and offers remarkable biodiversity,
+            stunning mountain landscapes, and sacred Buddhist sites.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Gangtok (Capital), Namchi, Pelling, Ravangla, Lachung</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Nepali, Sikkimese (Bhutia), Lepcha, Limbu, Hindi, English</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Organic agriculture, tourism, hydropower, pharmaceuticals, handicrafts</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-mountain"></i>
+                <h5>Kanchenjunga</h5>
+                <p>World's third-highest peak considered sacred in Sikkim's indigenous tradition</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-om"></i>
+                <h5>Rumtek Monastery</h5>
+                <p>Seat of the Karmapa Lama with remarkable Tibetan Buddhist architecture and relics</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-water"></i>
+                <h5>Tsomgo Lake</h5>
+                <p>Sacred high-altitude glacial lake that changes colors with the seasons</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-hiking"></i>
+                <h5>Yumthang Valley</h5>
+                <p>"Valley of Flowers" with hot springs, alpine meadows, and mountain rivers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/api/placeholder/450/350" alt="Sikkim mountains and monasteries">
+      </div>
+    </div>
+
+    <div class="topic-card animate" id="tripura">
+      <h3>Tripura: Land of Royal Heritage</h3>
+      <div class="state-profile">
+        <img src="/api/placeholder/450/350" alt="Tripura palace and culture">
+        <div class="state-info">
+          <p>Tucked between Bangladesh and other northeastern states, Tripura was ruled by the Manikya dynasty for over
+            500 years before joining India in 1949. The state blends Bengali and indigenous tribal cultures with
+            impressive archaeological sites, royal heritage, and natural beauty.</p>
+
+          <div class="state-highlights">
+            <div class="highlight-item">
+              <h4>Capital & Key Cities</h4>
+              <p>Agartala (Capital), Udaipur, Dharmanagar, Kailashahar, Belonia</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Major Languages</h4>
+              <p>Bengali, Tripuri (Kokborok), other tribal languages</p>
+            </div>
+
+            <div class="highlight-item">
+              <h4>Economy</h4>
+              <p>Agriculture, rubber plantations, handicrafts, natural gas, textiles</p>
+            </div>
+          </div>
+
+          <div class="attractions-section">
+            <h4>Major Attractions</h4>
+            <div class="attractions-grid">
+              <div class="attraction-item">
+                <i class="fas fa-landmark"></i>
+                <h5>Ujjayanta Palace</h5>
+                <p>Former royal palace now housing the Tripura State Museum with Indo-Saracenic architecture</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-place-of-worship"></i>
+                <h5>Neermahal</h5>
+                <p>White marble water palace built in the middle of Rudrasagar Lake</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-om"></i>
+                <h5>Unakoti</h5>
+                <p>Ancient rock-cut sculptures and stone images dedicated to Lord Shiva</p>
+              </div>
+
+              <div class="attraction-item">
+                <i class="fas fa-landmark"></i>
+                <h5>Pilak</h5>
+                <p>Archaeological site with Buddhist and Hindu sculptures from 8th-9th centuries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Cultural Heritage of Northeast India</h3>
+      <div class="culture-section">
+        <div class="culture-category">
+          <i class="fas fa-music"></i>
+          <h4>Music & Dance</h4>
+          <p>Northeast India's cultural expressions include the classical Manipuri dance, Assam's vibrant Bihu
+            performances, Nagaland's warrior dances, and numerous folk traditions. Modern fusion bands like Shillong's
+            "Soulmate" blend traditional sounds with contemporary styles, while music festivals celebrate the region's
+            rich heritage.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-palette"></i>
+          <h4>Arts & Crafts</h4>
+          <p>Traditional craftsmanship flourishes with Assam's silk weaving, Naga shawls, Manipur's Longpi pottery,
+            Tripura's bamboo crafts, and Arunachal's intricate woodcarvings. These handcrafted treasures represent
+            cultural identities and provide sustainable livelihoods for local communities.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-landmark"></i>
+          <h4>Architecture</h4>
+          <p>Architectural styles range from Assam's riverside Satras (monasteries), Manipur's royal structures,
+            Sikkim's colorful Buddhist gompas, to traditional Naga morung (communal houses) and Khasi bamboo dwellings.
+            Each demonstrates ingenious adaptation to local environments and cultural needs.</p>
+        </div>
+
+        <div class="culture-category">
+          <i class="fas fa-utensils"></i>
+          <h4>Cuisine</h4>
+          <p>Northeast cuisine features fermented foods, bamboo shoots, king chili, wild herbs, and minimal spices.
+            Signature dishes include Assam's fish tenga, Nagaland's smoked pork, Manipur's eromba, Meghalaya's jadoh,
+            and Sikkim's momos, with rice as the staple food across the region.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Festivals of Northeast India</h3>
+      <div class="festivals-section">
+        <div class="festival-grid">
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Bihu celebration">
+            <h4>Bihu</h4>
+            <p>Assam's most important festival marks different agricultural seasons with dance, music, feasting, and
+              community celebrations, especially during Bohag Bihu (spring).</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Hornbill Festival">
+            <h4>Hornbill Festival</h4>
+            <p>Nagaland's "Festival of Festivals" brings together all 16 major tribes for cultural performances, crafts,
+              sports, and food during ten days of celebrations.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Cheiraoba celebration">
+            <h4>Cheiraoba</h4>
+            <p>Manipur's new year festival includes cleaning homes, preparing special meals, and climbing hills to
+              symbolize ascending to greater heights in life.</p>
+          </div>
+
+          <div class="festival-item">
+            <img src="/api/placeholder/300/200" alt="Losar celebration">
+            <h4>Losar</h4>
+            <p>The Tibetan New Year celebrated in Sikkim and Arunachal Pradesh with monastery prayers, masked dances,
+              and family gatherings to welcome prosperity.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Spiritual & Religious Significance</h3>
+      <div class="spiritual-section">
+        <img src="/api/placeholder/450/300" alt="Northeast Indian religious sites">
+        <div class="spiritual-info">
+          <p>Northeast India presents a fascinating tapestry of spiritual traditions, from indigenous belief systems to
+            major world religions that have taken unique regional forms.</p>
+          <div class="spiritual-places">
+            <div class="spiritual-category">
+              <h4>Indigenous Faiths</h4>
+              <p>Many communities practice traditional animistic faiths like Donyi-Polo (Arunachal Pradesh), Sanamahism
+                (Manipur), and various tribal belief systems that revere nature, ancestors, and local deities through
+                rituals and festivals that maintain deep spiritual connections to the land.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Hinduism</h4>
+              <p>Hinduism in the Northeast has distinctive forms like Assam's Shakti tradition centered around the
+                Kamakhya Temple, one of India's most important Shakti Peethas. Manipur's Vaishnavism blends with
+                indigenous practices, while Tripura features unique syncretic traditions.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Buddhism</h4>
+              <p>Tibetan Buddhism flourishes in Sikkim, Arunachal Pradesh, and parts of Assam with impressive
+                monasteries like Tawang, Rumtek, and Pemayangtse. These centers preserve ancient traditions of Mahayana
+                and Vajrayana Buddhism with colorful practices and rituals.</p>
+            </div>
+
+            <div class="spiritual-category">
+              <h4>Christianity</h4>
+              <p>Christianity has strong influence in Mizoram, Nagaland, and Meghalaya, where it blends with traditional
+                cultural elements to create unique expressions of faith. Churches often serve as community centers that
+                preserve local languages and cultural identity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Natural Wonders</h3>
+      <div class="nature-section">
+        <div class="nature-grid">
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Living Root Bridges">
+            <h4>Living Root Bridges</h4>
+            <p>Meghalaya's bioengineering marvels where Khasi and Jaintia communities train the aerial roots of rubber
+              trees to form functional bridges that grow stronger over generations and symbolize sustainable living.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Brahmaputra River">
+            <h4>Brahmaputra River</h4>
+            <p>One of Asia's mightiest rivers carves through Assam creating riverine ecosystems, fertile valleys, and
+              the world's largest river island, Majuli, which is home to distinctive Vaishnavite culture and
+              monasteries.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Loktak Lake">
+            <h4>Loktak Lake</h4>
+            <p>Manipur's "floating lake" features unique phumdis (floating biomass islands) that house communities,
+              fishing villages, and the world's only floating national park protecting the endangered Sangai deer.</p>
+          </div>
+
+          <div class="nature-item">
+            <img src="/api/placeholder/300/200" alt="Himalayan Landscapes">
+            <h4>Eastern Himalayas</h4>
+            <p>The biodiversity hotspot encompasses Sikkim and Arunachal Pradesh with stunning alpine meadows, glacial
+              lakes, rhodendron forests, and endangered wildlife including red pandas, snow leopards, and takins.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Modern Northeast India</h3>
+      <div class="modern-section">
+        <img src="/api/placeholder/450/300" alt="Modern Northeast Indian cities">
+        <div class="modern-info">
+          <p>While proudly preserving its cultural heritage and natural treasures, Northeast India is embracing economic
+            development, educational advancement, and technological progress to address its unique challenges and
+            opportunities.</p>
+
+          <div class="modern-highlights">
+            <div class="modern-highlight">
+              <h4>Urban Development</h4>
+              <p>Cities like Guwahati, Shillong, Imphal, and Gangtok are developing as regional hubs with growing
+                infrastructures, educational institutions, and services while working to maintain their distinctive
+                cultural identities.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Green Initiatives</h4>
+              <p>The region leads in sustainable development with Sikkim's organic farming revolution, Nagaland's
+                community conservation efforts, and renewable energy projects that utilize abundant water resources
+                through environmentally sensitive approaches.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Connectivity</h4>
+              <p>Improved highways, new railway lines, expanding air routes, and digital connectivity are reducing the
+                region's historical isolation and creating new opportunities for tourism, trade, and cultural exchange
+                with other parts of India and neighboring countries.</p>
+            </div>
+
+            <div class="modern-highlight">
+              <h4>Creative Industries</h4>
+              <p>The Northeast's vibrant music, fashion, and creative sectors are gaining national recognition, with
+                Shillong established as India's "rock capital," Manipur's film industry growing, and designers
+                incorporating traditional textiles into contemporary fashion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Travel Information</h3>
+      <div class="travel-info">
+        <div class="travel-season">
+          <h4>Best Time to Visit</h4>
+          <div class="season-grid">
+            <div class="season">
+              <i class="fas fa-snowflake"></i>
+              <h5>Winter (Nov-Feb)</h5>
+              <p>Ideal for exploring plains of Assam and Tripura with clear views, wildlife sanctuaries, and cultural
+                festivals like Hornbill</p>
+            </div>
+
+            <div class="season">
+              <i class="fas fa-sun"></i>
+              <h5>Spring (Mar-May)</h5>
+              <p>Perfect for visiting high-altitude areas of Sikkim and Arunachal with rhododendron blooms and pleasant
+                temperatures</p>
+            </div>
+
+            <div class="season">
+              <i class="fas fa-cloud-rain"></i>
+              <h5>Post-Monsoon (Oct-Nov)</h5>
+              <p>Brings lush landscapes and ideal conditions for experiencing Meghalaya's living root bridges and
+                waterfalls</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="travel-tips">
+          <h4>Travel Tips</h4>
+          <ul>
+            <li><i class="fas fa-passport"></i> <span>Check permit requirements - Inner Line Permits are needed for
+                Arunachal Pradesh, Nagaland, Mizoram, and parts of Manipur</span></li>
+            <li><i class="fas fa-road"></i> <span>Plan flexible itineraries as weather conditions can affect mountain
+                roads and transportation</span></li>
+            <li><i class="fas fa-utensils"></i> <span>Try local cuisines with unique fermented foods, bamboo-cooked
+                dishes, and indigenous herbs rarely found elsewhere</span></li>
+            <li><i class="fas fa-shopping-bag"></i> <span>Support local communities by purchasing authentic handcrafted
+                textiles, bamboo products, and tribal art directly from artisans</span></li>
+            <li><i class="fas fa-users"></i> <span>Respect local customs and traditions, especially when visiting tribal
+                villages or religious sites</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-card animate">
+      <h3>Explore Further</h3>
+      <div class="related-topics">
+        <a href="east_india.html" class="related-topic">
+          <i class="fas fa-compass"></i>
+          <h4>East India</h4>
+          <p>Discover the cultural connections between Northeast and Eastern states</p>
+        </a>
+
+        <a href="environment.html" class="related-topic">
+          <i class="fas fa-leaf"></i>
+          <h4>Wildlife & Environment</h4>
+          <p>Explore the biodiversity hotspots of the Eastern Himalayas</p>
+        </a>
+
+        <a href="art.html" class="related-topic">
+          <i class="fas fa-palette"></i>
+          <h4>Arts & Entertainment</h4>
+          <p>Learn about the diverse artistic traditions of Northeast communities</p>
+        </a>
+
+        <a href="Cuisine.html" class="related-topic">
+          <i class="fas fa-utensils"></i>
+          <h4>Northeastern Cuisine</h4>
+          <p>Savor the unique flavors and ingredients of Northeast Indian food</p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-about">
+        <h4>About the Project</h4>
+        <p>This website aims to showcase the diverse culture, history, and heritage of India. It serves as a
+          comprehensive resource for anyone interested in learning about the various aspects of Indian
+          civilization.</p>
+      </div>
+
+      <div class="team-members">
+        <h4>Team Members</h4>
+        <ul>
+          <li>Mitthu Kumar(Mayank)-Team Leader</li>
+          <li>Adarsh Kumar Singh</li>
+          <li>Prince Ojha</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>© 2025 M K Shahi. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

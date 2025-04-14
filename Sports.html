@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <title>Sports - India : That is Bharat</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <!-- Header with Navigation Bar -->
+   <header>
+      <nav>
+         <div class="logo">
+            <img src="./image/logo.png" alt="Bharat Map">
+         </div>
+
+         <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+         </button>
+
+         <ul id="nav-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="dropdown">
+               <button class="dropbtn">ABOUT</button>
+               <div class="dropdown-content">
+                  <a href="geo.html">Geography & People</a>
+                  <a href="economy.html">Economy</a>
+                  <a href="religion.html">Culture and Religion</a>
+                  <a href="gov_poli.html">Government and Politics</a>
+                  <a href="language.html">Language</a>
+                  <a href="education.html">Education</a>
+                  <a href="science.html">Science and Technology</a>
+                  <a href="environment.html">Wildlife and Environment</a>
+                  <a href="Cuisine.html">Cuisine</a>
+                  <a href="art.html">Arts and Entertainment</a>
+                  <a href="Sports.html">Sports</a>
+                  <a href="social.html">Social Challenges</a>
+                  <a href="tourism.html">Tourism</a>
+               </div>
+            </li>
+            <li class="dropdown">
+               <button class="dropbtn">ICONS</button>
+               <div class="dropdown-content">
+                  <a href="fighter.html">Freedom Fighters</a>
+                  <a href="king.html">Ruling Entities</a>
+                  <a href="president.html">President</a>
+                  <a href="pm.html">Prime Minister</a>
+                  <a href="hero.html">Notable Indians</a>
+               </div>
+            </li>
+            <li class="dropdown">
+               <button class="dropbtn">HISTORY</button>
+               <div class="dropdown-content">
+                  <a href="ancient.html">Ancient Period</a>
+                  <a href="medival.html">Medieval Period</a>
+                  <a href="modern.html">Modern Period</a>
+               </div>
+            </li>
+            <li class="dropdown">
+               <button class="dropbtn">REGION</button>
+               <div class="dropdown-content">
+                  <a href="north_india.html">North India</a>
+                  <a href="south_india.html">South India</a>
+                  <a href="west_india.html">West India</a>
+                  <a href="east_india.html">East India</a>
+                  <a href="norteast_india.html">Northeast India</a>
+                  <a href="central_india.html">Central India</a>
+               </div>
+            </li>
+            <li><a href="contect.html">CONTACT</a></li>
+
+            <div class="search">
+               <input type="text" id="search-bar" placeholder="Search...">
+               <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+
+            <button class="subscribe-btn"><a href="subscribe.html">SUBSCRIBE</a></button>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <div class="hero-section sports-hero">
+         <div class="hero-overlay"
+            style="background: url('https://media.licdn.com/dms/image/v2/D5612AQGvnQEaLPOIhg/article-cover_image-shrink_720_1280/B56ZU3UpB4GUAI-/0/1740389934606?e=2147483647&v=beta&t=qXOVOTmfYMaq0aAbTnp8RyHr9xmyQF4BhmCpatDYsHU') no-repeat center center/cover;">
+            <h2>Sports in India</h2>
+            <p>Discover the passion, diversity, and evolution of sports in the world's second most populous nation</p>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h1>India's Sporting Heritage: Ancient Traditions to Global Excellence</h1>
+         <p>India's relationship with sports spans millennia, from ancient physical contests described in the Vedas to
+            modern Olympic achievements. The country's sporting landscape reflects its cultural diversity, with
+            traditional
+            indigenous games coexisting alongside globally popular sports and emerging competitions, fueled by a
+            passionate
+            nationwide love for athletic excellence and competition.</p>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Sports Overview</h3>
+         <div class="economic-stats">
+            <div class="stat-item">
+               <i class="fas fa-trophy"></i>
+               <h4>Olympic Medals</h4>
+               <p>35 total medals since 1900</p>
+               <p>Record 7 medals at Tokyo 2020</p>
+            </div>
+
+            <div class="stat-item">
+               <i class="fas fa-users"></i>
+               <h4>Cricket Dominance</h4>
+               <p>3 ODI World Cup titles</p>
+               <p>1 T20 World Cup title</p>
+               <p>World's richest cricket board</p>
+            </div>
+
+            <div class="stat-item">
+               <i class="fas fa-running"></i>
+               <h4>Sports Participation</h4>
+               <p>290+ million active players</p>
+               <p>Growing at 12% annually</p>
+            </div>
+
+            <div class="stat-item">
+               <i class="fas fa-dollar-sign"></i>
+               <h4>Sports Industry</h4>
+               <p>$12 billion market value</p>
+               <p>13% annual growth rate</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Historical Evolution of Sports</h3>
+         <div class="timeline-section">
+            <div class="timeline-item">
+               <div class="timeline-date">Ancient Period</div>
+               <h4>Origins of Physical Culture</h4>
+               <p>Ancient Indian texts reference martial arts, wrestling (mallakhamb), archery, chariot racing, and
+                  board
+                  games like chaturanga (precursor to chess). Physical prowess was highly valued in Vedic society, with
+                  detailed systems of exercise and competition.</p>
+            </div>
+
+            <div class="timeline-item">
+               <div class="timeline-date">Medieval Period</div>
+               <h4>Royal Patronage</h4>
+               <p>Princely states fostered sporting excellence, with rulers organizing wrestling tournaments, polo
+                  matches,
+                  and hunting expeditions. Regional forms of physical contests flourished under royal patronage, with
+                  specialized training systems developing across the subcontinent.</p>
+            </div>
+
+            <div class="timeline-item">
+               <div class="timeline-date">Colonial Era</div>
+               <h4>Western Introduction</h4>
+               <p>British rule introduced cricket, football, hockey, and tennis to India, establishing clubs,
+                  tournaments,
+                  and infrastructure. These sports initially limited to colonial elites gradually gained wider Indian
+                  participation, with hockey emerging as an early source of national pride.</p>
+            </div>
+
+            <div class="timeline-item">
+               <div class="timeline-date">Post-Independence</div>
+               <h4>Nation Building Through Sport</h4>
+               <p>Sports became integral to national identity, with hockey's golden era bringing Olympic glory. The
+                  establishment of national federations, training institutes, and competitions created systematic
+                  development
+                  frameworks while traditional games were preserved through indigenous sports initiatives.</p>
+            </div>
+
+            <div class="timeline-item">
+               <div class="timeline-date">Modern Era</div>
+               <h4>Commercialization & Global Integration</h4>
+               <p>The 1983 Cricket World Cup victory transformed India's sporting landscape, leading to cricket's
+                  commercial
+                  explosion through events like IPL. Recent decades have seen increased investment across multiple
+                  sports,
+                  with emerging leagues, corporate sponsorships, and government initiatives driving broader sporting
+                  development.</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Major Sports in India</h3>
+         <div class="sectors-section">
+            <div class="sector-item">
+               <img src="/api/placeholder/400/250" alt="Cricket match in India">
+               <h4>Cricket</h4>
+               <p>Cricket transcends sport to become cultural phenomenon in India, inspiring devotion across
+                  socioeconomic
+                  divides. The Board of Control for Cricket in India (BCCI) is the world's wealthiest cricket
+                  organization,
+                  with the Indian Premier League revolutionizing the sport through its franchise model, celebrity
+                  ownership,
+                  and entertainment fusion. India's national team ranks consistently among world leaders and has claimed
+                  ODI
+                  World Cup victories in 1983, 2011, and 2023, cementing cricket as the nation's sporting religion.</p>
+            </div>
+
+            <div class="sector-item">
+               <img src="/api/placeholder/400/250" alt="Hockey match in India">
+               <h4>Hockey</h4>
+               <p>Once India's most successful Olympic sport with eight gold medals, hockey holds a special place in
+                  national
+                  sporting history. Though international dominance has waned since the 1980s, recent resurgence includes
+                  the
+                  2020 Olympic bronze medal. The Hockey India League (2013-2017) introduced professional structures
+                  while
+                  development programs are rebuilding grassroots participation. Hockey's legacy as India's first
+                  international
+                  team sport success remains influential despite cricket's commercial overshadowing.</p>
+            </div>
+
+            <div class="sector-item">
+               <img src="/api/placeholder/400/250" alt="Football match in India">
+               <h4>Football</h4>
+               <p>India's football relationship balances growing international viewership with developing domestic
+                  competition. Historical successes include the 1962 Asian Games gold medal and 1956 Olympic semi-final
+                  appearance. The Indian Super League (est. 2014) has elevated standards through international players,
+                  improved facilities, and increased viewership. Mohun Bagan and East Bengal's century-old rivalry
+                  represents
+                  one of world football's oldest derbies, while youth programs and grassroots initiatives are
+                  strengthening
+                  future prospects for the national team.</p>
+            </div>
+
+            <div class="sector-item">
+               <img src="/api/placeholder/400/250" alt="Badminton match in India">
+               <h4>Badminton</h4>
+               <p>Badminton has emerged as India's second most successful individual Olympic sport, with Prakash
+                  Padukone's
+                  1980 All England championship pioneering international success. The Pullela Gopichand Academy has
+                  produced
+                  champions including PV Sindhu (Olympic silver and bronze medals), Saina Nehwal (Olympic bronze), and
+                  Lakshya
+                  Sen. The Premier Badminton League featuring international stars has enhanced the sport's visibility,
+                  while
+                  steady success in Thomas Cup, Uber Cup, and BWF World Championships has established India as a
+                  badminton
+                  powerhouse.</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Olympic Journey & Achievements</h3>
+         <div class="innovation-section">
+            <div class="innovation-info">
+               <p>India's Olympic history began in 1900 when Norman Pritchard won two silver medals in athletics, though
+                  the
+                  country's first official delegation participated in 1920. Despite being the world's second-most
+                  populous
+                  nation, India has won relatively few Olympic medals, with recent strategic focus on improving this
+                  record
+                  through targeted investments and athlete development programs.</p>
+
+               <div class="innovation-highlights">
+                  <div class="highlight-item">
+                     <h4>Hockey Dominance</h4>
+                     <p>Between 1928-1980, Indian hockey teams secured eight gold medals, including six consecutive
+                        victories
+                        (1928-1956), representing the most successful Olympic team sport performance in history.</p>
+                  </div>
+
+                  <div class="highlight-item">
+                     <h4>Individual Breakthroughs</h4>
+                     <p>Abhinav Bindra's 2008 gold in shooting, Karnam Malleswari's weightlifting bronze (2000), Leander
+                        Paes'
+                        tennis bronze (1996), and PV Sindhu's back-to-back Olympic medals marked critical individual
+                        milestones.
+                     </p>
+                  </div>
+
+                  <div class="highlight-item">
+                     <h4>Tokyo 2020 Success</h4>
+                     <p>The 2020 Olympics delivered India's best-ever performance with seven medals, including Neeraj
+                        Chopra's
+                        historic javelin gold—the first athletics gold in Indian Olympic history—signaling a potential
+                        turning
+                        point in Olympic development.</p>
+                  </div>
+               </div>
+            </div>
+            <img src="/api/placeholder/450/300" alt="Indian Olympic athletes">
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Traditional & Indigenous Sports</h3>
+         <div class="infrastructure-section">
+            <img src="/api/placeholder/450/300" alt="Traditional Indian sports">
+            <div class="infrastructure-info">
+               <p>India's sporting heritage includes numerous indigenous games that have evolved over centuries,
+                  reflecting
+                  regional cultures, martial traditions, and physical development systems. These sports maintain
+                  cultural
+                  significance despite modern sports' commercial dominance.</p>
+
+               <div class="infrastructure-categories">
+                  <div class="infra-category">
+                     <h4>Kabaddi</h4>
+                     <p>This contact sport requiring strength, agility, and breath control has transformed from village
+                        contests to international competition, with the Pro Kabaddi League becoming India's second
+                        most-watched
+                        sports league with innovative presentation and urban appeal.</p>
+                  </div>
+
+                  <div class="infra-category">
+                     <h4>Kho Kho</h4>
+                     <p>A tag sport demanding speed, strategy and teamwork, Kho Kho is played throughout Indian schools
+                        and is
+                        modernizing through the Ultimate Kho Kho League with standardized rules, professional teams, and
+                        broadcast coverage.</p>
+                  </div>
+
+                  <div class="infra-category">
+                     <h4>Mallakhamb</h4>
+                     <p>Combining gymnastics, wrestling, and yoga, practitioners perform aerial poses on a vertical
+                        wooden pole
+                        or rope, building extraordinary strength and flexibility. Competitive circuits preserve this
+                        ancient art
+                        with growing international interest.</p>
+                  </div>
+
+                  <div class="infra-category">
+                     <h4>Wrestling Forms</h4>
+                     <p>Traditional wrestling styles like Pehlwani, Kushti, and Malla-yuddha preserve ancient combat
+                        systems
+                        through specialized training (akhadas), dietary practices, and centuries-old techniques that
+                        continue
+                        informing India's international wrestling success.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Sporting Infrastructure & Development</h3>
+         <div class="trade-section">
+            <div class="trade-charts">
+               <img src="/api/placeholder/500/300" alt="Sports infrastructure in India">
+            </div>
+            <div class="trade-info">
+               <p>India's sporting infrastructure has undergone significant expansion and modernization in recent
+                  decades,
+                  though challenges remain in achieving comprehensive nationwide coverage and world-class quality
+                  outside
+                  major urban centers.</p>
+
+               <div class="trade-highlights">
+                  <div class="trade-highlight">
+                     <h4>National Training Centers</h4>
+                     <p>The Sports Authority of India operates centers of excellence across the country, with
+                        specialized
+                        facilities for priority Olympic disciplines and national training camps for elite athletes.</p>
+                  </div>
+
+                  <div class="trade-highlight">
+                     <h4>Private Academies</h4>
+                     <p>Specialized training centers established by champion athletes like Pullela Gopichand
+                        (badminton), Mary
+                        Kom (boxing), and Mahesh Bhupathi (tennis) have produced international medalists through
+                        world-class
+                        coaching and scientific training methods.</p>
+                  </div>
+
+                  <div class="trade-highlight">
+                     <h4>Major Sports Venues</h4>
+                     <p>World-class stadiums include cricket facilities (Eden Gardens, Narendra Modi Stadium),
+                        multipurpose
+                        venues (Jawaharlal Nehru Stadium complex), and specialized arenas for badminton, shooting, and
+                        aquatic
+                        sports developed for international competitions.</p>
+                  </div>
+
+                  <div class="trade-highlight">
+                     <h4>Grassroots Development</h4>
+                     <p>The Khelo India program identifies talent through school competitions and university games,
+                        providing
+                        scholarships and specialized training while developing community sports infrastructure across
+                        rural and
+                        urban areas.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Sports Governance & Policy</h3>
+         <div class="challenges-grid">
+            <div class="challenge-item">
+               <i class="fas fa-university"></i>
+               <h4>Ministry of Youth Affairs & Sports</h4>
+               <p>The central government oversees sports policy, funding distribution, infrastructure development, and
+                  international representation, working alongside state governments that manage regional sports
+                  development.
+               </p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-gavel"></i>
+               <h4>National Sports Federations</h4>
+               <p>Sport-specific governing bodies conduct national championships, select national teams, and implement
+                  development programs, though many face governance challenges including political interference and
+                  transparency issues.</p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-medal"></i>
+               <h4>Olympic Association</h4>
+               <p>The Indian Olympic Association coordinates Olympic participation and multi-sport events like the Asian
+                  Games, Commonwealth Games, and South Asian Games while navigating complex relationships with
+                  international
+                  sports governance.</p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-file-alt"></i>
+               <h4>National Sports Policy</h4>
+               <p>The National Sports Policy emphasizes "Sports for All" and "Excellence in Sports" dual objectives,
+                  providing frameworks for talent identification, coaching development, sports science integration, and
+                  anti-doping measures.</p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-hands-helping"></i>
+               <h4>Public-Private Partnerships</h4>
+               <p>Corporate sponsorship through CSR initiatives and adoption of sports disciplines by major companies
+                  has
+                  expanded available resources beyond government funding limitations while bringing professional
+                  management
+                  practices.</p>
+            </div>
+
+            <div class="challenge-item">
+               <i class="fas fa-user-graduate"></i>
+               <h4>Athlete Support Systems</h4>
+               <p>The Target Olympic Podium Scheme (TOPS) provides customized support to medal prospects, including
+                  international training, equipment, coaching, sports science, and financial assistance for career
+                  development.</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Sporting Leagues Revolution</h3>
+         <div class="policies-section">
+            <div class="policy-timeline">
+               <div class="policy-item">
+                  <div class="policy-year">2008</div>
+                  <h4>Indian Premier League (Cricket)</h4>
+                  <p>Revolutionized global cricket with franchise model, auction system, and entertainment fusion,
+                     creating
+                     $10+ billion ecosystem and inspiring similar leagues worldwide.</p>
+               </div>
+
+               <div class="policy-item">
+                  <div class="policy-year">2014</div>
+                  <h4>Indian Super League (Football)</h4>
+                  <p>Modernized Indian football through franchises, international players/coaches, enhanced
+                     broadcasting, and
+                     improved infrastructure, though integration with traditional clubs remains challenging.</p>
+               </div>
+
+               <div class="policy-item">
+                  <div class="policy-year">2014</div>
+                  <h4>Pro Kabaddi League</h4>
+                  <p>Transformed ancient contact sport into modern spectacle through strategic investment, television
+                     production innovation, and urban marketing, becoming India's second-most-watched sports league.</p>
+               </div>
+
+               <div class="policy-item">
+                  <div class="policy-year">2016-2023</div>
+                  <h4>Multiple Sport Expansion</h4>
+                  <p>Professional leagues established in badminton, hockey, volleyball, table tennis, wrestling, and
+                     kho-kho,
+                     providing competitive platforms, commercial opportunities, and visibility for non-cricket sports.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Champion Athletes & Sporting Icons</h3>
+         <div class="regional-economies">
+            <img src="/api/placeholder/500/350" alt="Famous Indian athletes">
+            <div class="region-highlights">
+               <div class="region-highlight">
+                  <h4>Cricket Legends</h4>
+                  <p>Sachin Tendulkar's 100 international centuries, Kapil Dev's 1983 World Cup leadership, MS Dhoni's
+                     captaincy brilliance, and Virat Kohli's aggressive excellence represent cricket's transcendent
+                     figures in
+                     national consciousness.</p>
+               </div>
+
+               <div class="region-highlight">
+                  <h4>Olympic Heroes</h4>
+                  <p>Abhinav Bindra (shooting), Neeraj Chopra (javelin), PV Sindhu (badminton), and Mirabai Chanu
+                     (weightlifting) have elevated Olympic success expectations through breakthrough performances and
+                     sustained
+                     excellence.</p>
+               </div>
+
+               <div class="region-highlight">
+                  <h4>Women Trailblazers</h4>
+                  <p>Mary Kom (boxing), Saina Nehwal (badminton), Mithali Raj (cricket), and Sania Mirza (tennis)
+                     overcame
+                     gender barriers to achieve international success, inspiring a new generation of female athletes
+                     across
+                     disciplines.</p>
+               </div>
+
+               <div class="region-highlight">
+                  <h4>Chess Grandmasters</h4>
+                  <p>Viswanathan Anand's five world championships established India as a chess power, while Rameshbabu
+                     Praggnanandhaa, D. Gukesh, and Koneru Humpy represent the expanding competitive excellence across
+                     gender
+                     and age categories.</p>
+               </div>
+
+               <div class="region-highlight">
+                  <h4>Hockey Immortals</h4>
+                  <p>Dhyan Chand's three Olympic golds (1928-1936) and extraordinary skill earned him "The Wizard"
+                     nickname,
+                     while players like Balbir Singh Sr. and recent medalists maintain hockey's connection to national
+                     sporting
+                     identity.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Challenges & Opportunities</h3>
+         <div class="future-economy">
+            <p>Despite significant progress, Indian sports development faces structural challenges alongside
+               unprecedented
+               opportunities for transformation and growth:</p>
+
+            <div class="future-trends">
+               <div class="trend-item">
+                  <i class="fas fa-exclamation-triangle"></i>
+                  <h4>Grassroots Access</h4>
+                  <p>Limited infrastructure in rural areas and smaller cities restricts talent identification and
+                     development, requiring targeted investment in accessible community facilities and school sports
+                     programs.
+                  </p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-balance-scale"></i>
+                  <h4>Governance Reform</h4>
+                  <p>Administrative inefficiencies, political interference, and transparency concerns hamper many sports
+                     federations, necessitating professionalization and accountability mechanisms across governing
+                     bodies.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-user-graduate"></i>
+                  <h4>Career Pathways</h4>
+                  <p>Limited professional opportunities in many sports discourage participation and specialization,
+                     requiring
+                     expanded competitive structures and financial sustainability beyond cricket's exceptional
+                     ecosystem.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-heartbeat"></i>
+                  <h4>Sports Science Integration</h4>
+                  <p>Insufficient sports medicine, physiotherapy, nutrition, and psychological support services affect
+                     athlete development and injury prevention, especially outside elite programs and major cities.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-globe"></i>
+                  <h4>Global Hosting Ambitions</h4>
+                  <p>India's successful hosting of cricket, hockey, and shooting world championships has built capacity
+                     for
+                     larger events, with growing interest in bidding for future Olympic Games, Commonwealth Games, and
+                     Asian
+                     Games.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-users"></i>
+                  <h4>Demographic Dividend</h4>
+                  <p>India's young population represents enormous untapped sporting potential, with digital connectivity
+                     enabling discovery of diverse sports and opportunities beyond traditional pathways and geographic
+                     limitations.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>The Future of Indian Sports</h3>
+         <div class="future-economy">
+            <p>India's sporting trajectory shows promising developments across multiple dimensions, with strategic focus
+               areas emerging for the coming decade:</p>
+
+            <div class="future-trends">
+               <div class="trend-item">
+                  <i class="fas fa-volleyball-ball"></i>
+                  <h4>Multi-Sport Culture</h4>
+                  <p>Growing diversification beyond cricket through professional leagues, media coverage, and
+                     competitive success is creating more balanced sporting ecosystem with opportunities across
+                     disciplines.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-brain"></i>
+                  <h4>Sports Science Revolution</h4>
+                  <p>Integration of data analytics, biomechanics, recovery science, and personalized training
+                     methodologies is elevating performance standards and injury prevention across elite sports
+                     programs.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-female"></i>
+                  <h4>Women's Sports Growth</h4>
+                  <p>Expanded investment in women's competitions, gender-equal prize money initiatives, and female
+                     sporting role models is accelerating participation and excellence across traditionally
+                     male-dominated sports.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-laptop"></i>
+                  <h4>Esports Integration</h4>
+                  <p>Competitive gaming's rapid expansion has created new digital sports ecosystem, with professional
+                     teams, tournaments, and integration into multi-sport events including the Asian Games, attracting
+                     youth participation.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-hand-holding-heart"></i>
+                  <h4>Para-Sports Development</h4>
+                  <p>Following record Paralympic medal hauls, increased focus on inclusive sports infrastructure,
+                     dedicated coaching, and visibility for para-athletes is creating more comprehensive sporting
+                     environment.</p>
+               </div>
+
+               <div class="trend-item">
+                  <i class="fas fa-medal"></i>
+                  <h4>Olympic Ambitions</h4>
+                  <p>Targeted excellence programs in priority disciplines, specialized training centers, and scientific
+                     talent identification systems aim to establish India among top 10 Olympic nations by 2036,
+                     transforming global sporting perception.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="topic-card animate">
+         <h3>Explore Further</h3>
+         <div class="related-topics">
+            <a href="art.html" class="related-topic">
+               <i class="fas fa-paint-brush"></i>
+               <h4>Arts & Entertainment</h4>
+               <p>Discover the cultural expressions that complement India's sporting passions</p>
+            </a>
+
+            <a href="education.html" class="related-topic">
+               <i class="fas fa-graduation-cap"></i>
+               <h4>Education System</h4>
+               <p>Learn how sports and physical education integrate with academic development</p>
+            </a>
+
+            <a href="economy.html" class="related-topic">
+               <i class="fas fa-chart-line"></i>
+               <h4>Economy</h4>
+               <p>Explore the business of sports and its economic impact across India</p>
+            </a>
+
+            <a href="hero.html" class="related-topic">
+               <i class="fas fa-users"></i>
+               <h4>Notable Indians</h4>
+               <p>Meet the legendary sports personalities who have shaped Indian history</p>
+            </a>
+         </div>
+      </div>
+   </main>
+
+   <!-- Back to Top Button -->
+   <div class="back-to-top" id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+   </div>
+
+   <!-- Footer Section -->
+   <footer>
+      <div class="footer-content">
+         <div class="footer-info">
+            <div class="social-links">
+               <a href="#"><i class="fab fa-facebook"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+         </div>
+
+         <div class="footer-about">
+            <h4>About the Project</h4>
+            <p>This website aims to showcase the diverse culture, history, and heritage of India. It serves as a
+               comprehensive resource for anyone interested in learning about the various aspects of Indian
+               civilization.</p>
+         </div>
+
+         <div class="team-members">
+            <h4>Team Members</h4>
+            <ul>
+               <li>Mitthu Kumar(Mayank)-Team Leader</li>
+               <li>Adarsh Kumar Singh</li>
+               <li>Prince Ojha</li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="copyright">
+         <p>© 2025 M K Shahi. All Rights Reserved.</p>
+      </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>
